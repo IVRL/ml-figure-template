@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Diagram made with ml-figure-template
+  https://github.com/IVRL/ml-figure-template
+  Free to use with attribution — see
+  https://github.com/IVRL/ml-figure-template/blob/main/LICENSE
+  Template © 2026 EPFL-IVRL and Martin Everaert
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="518" viewBox="0 0 620 518">
+  <foreignObject x="0" y="0" width="620" height="518">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="mlfig" id="transformer-diagram" style="box-sizing: border-box; color: rgb(30, 41, 59); font-family: Inter, &quot;Segoe UI&quot;, -apple-system, &quot;system-ui&quot;, sans-serif; height: 517.305px; line-height: 25.6px; padding: 4px 16px 24px; position: relative; text-rendering: optimizelegibility; text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-locale: &quot;en&quot;; --text-secondary: #64748b; --primary-color: #2563eb; --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); --text-light: #94a3b8; --border-color: #e2e8f0; --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05); --background-accent: #f1f5f9; --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); --background-primary: #ffffff; --primary-hover: #1d4ed8; --ViewSDK-mobile-viewport-height: 1vh; --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); --border-radius: 12px; --text-primary: #1e293b; --background-secondary: #f8fafc; --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); --border-radius-lg: 16px; width: 100%; max-width: 620px; margin: 0px; --mlfig-w: 620px; --mlfig-z: 1; left: 0px; top: 0px; overflow: visible;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mlfig-svg" width="620" height="517.3046875" style="bottom:0px;box-sizing:border-box;display:block;height:517.305px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:620px;z-index:0;">
+          <defs style="box-sizing:border-box;">
+            <marker id="ah-transformer-diagram-5554x5" markerWidth="5" markerHeight="4" refX="2" refY="2" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+              <polygon points="0 0, 5 2, 0 4" fill="#555" style="box-sizing:border-box;"/>
+            </marker>
+          </defs>
+          <rect x="74.875" y="150.46875" width="188.6640625" height="185.65625" rx="10" ry="10" fill="#dddddd" stroke="#cccccc" stroke-width="1" stroke-dasharray="none" opacity="0.5" style="box-sizing:border-box;height:185.656px;opacity:0.5;rx:0px;ry:0px;width:188.664px;x:74.875px;y:150.469px;"/>
+          <rect x="356.453125" y="74.1875" width="188.6640625" height="261.9375" rx="10" ry="10" fill="#dddddd" stroke="#cccccc" stroke-width="1" stroke-dasharray="none" opacity="0.5" style="box-sizing:border-box;height:261.938px;opacity:0.5;rx:0px;ry:0px;width:188.664px;x:356.453px;y:74.1875px;"/>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="143.75" y1="360.125" x2="166.640625" y2="360.125" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="453.34375" y1="360.125" x2="476.2421875" y2="360.125" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.64453125" y1="447.7109375" x2="180.64453125" y2="430.3125" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="437.3125" x2="439.34765625" y2="430.3125" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.64453125" y1="393.125" x2="180.64124177630276" y2="377.1249999365978" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.640625" y1="346.125" x2="180.640625" y2="328.125" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.64453125" y1="277.890625" x2="180.64453125" y2="261.84375" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.640625" y1="327.125" x2="180.64375243382688" y2="315.07812489890756" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.64453125" y1="240.75" x2="180.640625" y2="231.75" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.64453125" y1="187.5625" x2="180.64453125" y2="179.5625" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.640625" y1="230.75" x2="180.6432291667893" y2="224.74999971742986" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="393.125" x2="439.34436677630276" y2="377.1249999365978" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="346.125" x2="439.34375" y2="328.125" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="269.84375" x2="439.34765625" y2="261.84375" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="327.125" x2="439.3459821431178" y2="323.1249995328943" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="240.75" x2="439.34375" y2="231.75" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="187.5625" x2="439.34765625" y2="179.5625" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="230.75" x2="439.3463541667893" y2="224.74999971742986" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="158.46875" x2="439.34375" y2="153.46875" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="111.28125" x2="439.34765625" y2="103.28125" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="152.46875" x2="439.3459821431178" y2="148.46874953289432" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="82.1875" x2="439.34765625" y2="61.1875" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34765625" y1="40.09375" x2="439.34765625" y2="25.09375" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.640625" y1="327.625" x2="88.375" y2="327.625" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 88.375,327.625 L 88.375,249.796875 L 107.75,249.796875" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="180.640625" y1="231.25" x2="88.375" y2="231.25" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 88.375,231.25 L 88.375,167.515625 L 107.75,167.515625" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="327.625" x2="531.6171875" y2="327.625" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 531.6171875,327.625 L 531.6171875,249.796875 L 512.2421875,249.796875" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="231.25" x2="531.6171875" y2="231.25" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 531.6171875,231.25 L 531.6171875,167.515625 L 512.2421875,167.515625" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="439.34375" y1="152.96875" x2="531.6171875" y2="152.96875" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 531.6171875,152.96875 L 531.6171875,91.234375 L 512.2421875,91.234375" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 180.64453125,158.46875 L 180.64453125,144.96875 L 309.9921875,144.96875" fill="none" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="309.9921875" y1="144.96875" x2="309.9921875" y2="231.25" stroke="#555" stroke-width="1" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 309.9921875,231.25 L 389.02359375000003,231.25 L 389.02359375000003,224.75" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 309.9921875,231.25 L 407.196171875,231.25 L 407.196171875,224.75" fill="none" stroke="#555" stroke-width="1" marker-end="url(#ah-transformer-diagram-5554x5)" style="box-sizing:border-box;"/>
+          </g>
+        </svg>
+          
+        <style style="box-sizing:border-box;">
+            /* Gradient fills sampled from the target image. Dark border per target. */
+            #transformer-diagram .embed    { --mlfig-bg: linear-gradient(to right, #fabdaf, #f4e3ce);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .attn     { --mlfig-bg: linear-gradient(to right, #f5dfb8, #e7c15c);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .ffn      { --mlfig-bg: linear-gradient(to right, #00fcff, #9fddf0);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .addnorm  { --mlfig-bg: linear-gradient(to right, #d8ccea, #dad1e9);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .linear   { --mlfig-bg: linear-gradient(to right, #d8ccea, #dad1e9);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .softmax  { --mlfig-bg: linear-gradient(to right, #bed9ae, #e5eccc);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .mlfig-block { padding: 0; border-radius: 8px; justify-self: center;
+                                      display: flex; align-items: center; justify-content: center;
+                                      font-family: 'Helvetica Neue', Arial, sans-serif;
+                                      font-size: 14px; font-weight: 400; color: #2a2a2a;
+                                      text-align: center; line-height: 1.15; }
+            /* Flatten the grey bounding-box corners (target has square corners) */
+            #transformer-diagram .mlfig-svg rect { rx: 0; ry: 0; }
+            /* Blocks stretch to fill their 3-column span */
+            #transformer-diagram .mlfig-block { width: 100%; box-sizing: border-box; }
+            /* Invisible split anchors (future skip-connection branch points) */
+            #transformer-diagram .split { width: 1px; height: 1px; justify-self: center; }
+            /* middle column (cross-attention skip path) — centered */
+            #transformer-diagram [id^="midskip-"] { justify-self: center; }
+            #transformer-diagram .pos-label { position: absolute; top: 50%; transform: translateY(-50%);
+                                     white-space: nowrap; color: #64748b;
+                                     line-height: 1.15; }
+            #transformer-diagram .pos-label.left  { right: calc(100% + 6px); text-align: right; }
+            #transformer-diagram .pos-label.right { left: calc(100% + 6px);  text-align: left; }
+            #transformer-diagram .sin-wave { width: 34px; height: 34px; justify-self: center;
+                                    position: relative; border-radius: 50%; border: 1px solid #000;
+                                    background: linear-gradient(to right, #d8ccea, #dad1e9); box-sizing: border-box;
+                                    transition: box-shadow 0.2s, transform 0.2s; }
+            #transformer-diagram .sin-wave:hover,
+            #transformer-diagram .add-holder:hover {
+              box-shadow: var(--shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1));
+              transform: translateY(-1px);
+            }
+            #transformer-diagram .sin-wave svg { width: 100%; height: 100%; display: block; }
+            #transformer-diagram .io-label { text-align: center; color: #64748b;
+                                    padding-top: 0.5rem; padding-bottom: 0.4rem; line-height: 1.3; }
+            #transformer-diagram .add-holder { justify-self: center; width: 28px; height: 28px; border-radius: 50%;
+                                      background: linear-gradient(to right, #d8ccea, #dad1e9);
+                                      border: 1px solid #000; color: #2a2a2a; box-sizing: border-box;
+                                      display: flex; align-items: center; justify-content: center;
+                                      font-size: 1rem; font-weight: 700; font-family: Arial, sans-serif;
+                                      position: relative; transition: box-shadow 0.2s, transform 0.2s; }
+          
+        </style>
+          
+          
+        <div class="mlfig-grid" data-row-gaps="18 24 11 7 5 11 9 9 11 7 15 16 10" style="align-items:center;box-sizing:border-box;column-gap:8px;display:grid;grid-template-areas:&quot;. . . . . . soft soft soft . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . . . . . lin lin lin . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . . . . . an-d3 an-d3 an-d3 . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . . . . . ffd ffd ffd . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. skl-ffd . . . skm-ffd . sp-ffd . skr-ffd .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . an-e2 an-e2 an-e2 . an-d2 an-d2 an-d2 . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . ffe ffe ffe . mha-d mha-d mha-d . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. skl-ffe . sp-ffe . skm-mhad . sp-mha-d . skr-mhad .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . an-e1 an-e1 an-e1 . an-d1 an-d1 an-d1 . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . mha-e mha-e mha-e . mmha-d mmha-d mmha-d . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. skl-mhae . sp-mha-e . skm-mmhad . sp-mmha-d . skr-mmhad .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . sin-e enc-add . . . dec-add sin-d . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . ie ie ie . oe oe oe . .&quot; &quot;. . . . . . . . . . .&quot; &quot;. . in-lbl in-lbl in-lbl . out-lbl out-lbl out-lbl . .&quot;;grid-template-columns:50px 28.75px 32px 59.7891px 32px 102.914px 32px 59.7891px 32px 28.7578px 50px;grid-template-rows:18.0938px 18px 18.0938px 24px 18.0938px 11px 34.1875px 7px 1px 5px 18.0938px 11px 34.1875px 9px 1px 9px 18.0938px 11px 50.2812px 7px 1px 15px 34px 16px 34.1875px 10px 55.9922px;height:489.305px;justify-items:stretch;position:relative;row-gap:0px;width:588px;z-index:1;grid-template: &quot;. . . . . . soft soft soft . .&quot; &quot;. . . . . . . . . . .&quot; 18px &quot;. . . . . . lin lin lin . .&quot; &quot;. . . . . . . . . . .&quot; 24px &quot;. . . . . . an-d3 an-d3 an-d3 . .&quot; &quot;. . . . . . . . . . .&quot; 11px &quot;. . . . . . ffd ffd ffd . .&quot; &quot;. . . . . . . . . . .&quot; 7px &quot;. skl-ffd . . . skm-ffd . sp-ffd . skr-ffd .&quot; &quot;. . . . . . . . . . .&quot; 5px &quot;. . an-e2 an-e2 an-e2 . an-d2 an-d2 an-d2 . .&quot; &quot;. . . . . . . . . . .&quot; 11px &quot;. . ffe ffe ffe . mha-d mha-d mha-d . .&quot; &quot;. . . . . . . . . . .&quot; 9px &quot;. skl-ffe . sp-ffe . skm-mhad . sp-mha-d . skr-mhad .&quot; &quot;. . . . . . . . . . .&quot; 9px &quot;. . an-e1 an-e1 an-e1 . an-d1 an-d1 an-d1 . .&quot; &quot;. . . . . . . . . . .&quot; 11px &quot;. . mha-e mha-e mha-e . mmha-d mmha-d mmha-d . .&quot; &quot;. . . . . . . . . . .&quot; 7px &quot;. skl-mhae . sp-mha-e . skm-mmhad . sp-mmha-d . skr-mmhad .&quot; &quot;. . . . . . . . . . .&quot; 15px &quot;. . sin-e enc-add . . . dec-add sin-d . .&quot; &quot;. . . . . . . . . . .&quot; 16px &quot;. . ie ie ie . oe oe oe . .&quot; &quot;. . . . . . . . . . .&quot; 10px &quot;. . in-lbl in-lbl in-lbl . out-lbl out-lbl out-lbl . .&quot; / 50px 38fr minmax(32px, 40fr) 79fr minmax(32px, 40fr) minmax(16px, 136fr) minmax(32px, 40fr) 79fr minmax(32px, 40fr) 38fr 50px; gap: 0px 8px; margin: 0px auto;" data-_row-gaps-expanded="1">
+            
+          <div id="softmax" class="mlfig-block softmax" style="align-items:center;background-image:linear-gradient(to right, rgb(190, 217, 174), rgb(229, 236, 204));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:soft;grid-column-start:soft;grid-row-end:soft;grid-row-start:soft;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #bed9ae, #e5eccc);--mlfig-border:1px solid #555;grid-area: soft" data-tip="Softmax&#10;Converts logits to a probability distribution over the vocabulary" data-tip-position="bottom">Softmax
+          </div>
+            
+          <div id="output-linear" class="mlfig-block linear" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:lin;grid-column-start:lin;grid-row-end:lin;grid-row-start:lin;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: lin" data-tip="Linear projection&#10;&lt;math&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mtext&gt;vocab size&lt;/mtext&gt;&lt;/math&gt;" data-tip-position="bottom">Linear
+          </div>
+            
+          <div id="decoder-addnorm-3" class="mlfig-block addnorm" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:an-d3;grid-column-start:an-d3;grid-row-end:an-d3;grid-row-start:an-d3;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: an-d3" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after the decoder FFN">Add &amp; Norm
+          </div>
+            
+          <div id="decoder-ffn" class="mlfig-block ffn" style="align-items:center;background-image:linear-gradient(to right, rgb(0, 252, 255), rgb(159, 221, 240));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:ffd;grid-column-start:ffd;grid-row-end:ffd;grid-row-start:ffd;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #00fcff, #9fddf0);--mlfig-border:1px solid #555;grid-area: ffd" data-tip="Decoder Feed-Forward&#10;Position-wise MLP: &lt;math&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;·&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;">Feed
+            <br style="box-sizing:border-box;display:block;" />Forward
+          </div>
+            
+          <div id="encoder-addnorm-2" class="mlfig-block addnorm" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:an-e2;grid-column-start:an-e2;grid-row-end:an-e2;grid-row-start:an-e2;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: an-e2" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after the encoder FFN">Add &amp; Norm
+          </div>
+            
+          <div id="decoder-addnorm-2" class="mlfig-block addnorm" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:an-d2;grid-column-start:an-d2;grid-row-end:an-d2;grid-row-start:an-d2;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: an-d2" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after decoder cross-attention">Add &amp; Norm
+          </div>
+            
+          <div id="encoder-ffn" class="mlfig-block ffn" style="align-items:center;background-image:linear-gradient(to right, rgb(0, 252, 255), rgb(159, 221, 240));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:ffe;grid-column-start:ffe;grid-row-end:ffe;grid-row-start:ffe;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #00fcff, #9fddf0);--mlfig-border:1px solid #555;grid-area: ffe" data-tip="Encoder Feed-Forward&#10;Position-wise MLP: &lt;math&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;mo&gt;·&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;">Feed
+            <br style="box-sizing:border-box;display:block;" />Forward
+          </div>
+            
+          <div id="decoder-cross-attention" class="mlfig-block attn" style="align-items:center;background-image:linear-gradient(to right, rgb(245, 223, 184), rgb(231, 193, 92));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:mha-d;grid-column-start:mha-d;grid-row-end:mha-d;grid-row-start:mha-d;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #f5dfb8, #e7c15c);--mlfig-border:1px solid #555;grid-area: mha-d" data-tip="Cross-Attention&#10;Queries from the decoder, keys/values from the encoder output">Multi-Head
+            <br style="box-sizing:border-box;display:block;" />Attention
+          </div>
+            
+          <div id="encoder-addnorm-1" class="mlfig-block addnorm" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:an-e1;grid-column-start:an-e1;grid-row-end:an-e1;grid-row-start:an-e1;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: an-e1" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after encoder self-attention">Add &amp; Norm
+          </div>
+            
+          <div id="decoder-addnorm-1" class="mlfig-block addnorm" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:an-d1;grid-column-start:an-d1;grid-row-end:an-d1;grid-row-start:an-d1;height:18.0938px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #d8ccea, #dad1e9);--mlfig-border:1px solid #555;grid-area: an-d1" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after masked self-attention">Add &amp; Norm
+          </div>
+            
+          <div id="encoder-attention" class="mlfig-block attn" style="align-items:center;background-image:linear-gradient(to right, rgb(245, 223, 184), rgb(231, 193, 92));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:mha-e;grid-column-start:mha-e;grid-row-end:mha-e;grid-row-start:mha-e;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #f5dfb8, #e7c15c);--mlfig-border:1px solid #555;grid-area: mha-e" data-tip="Encoder Self-Attention&#10;Each position attends to all encoder positions">Multi-Head
+            <br style="box-sizing:border-box;display:block;" />Attention
+          </div>
+            
+          <div id="decoder-masked-attention" class="mlfig-block attn" style="align-items:center;background-image:linear-gradient(to right, rgb(245, 223, 184), rgb(231, 193, 92));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:mmha-d;grid-column-start:mmha-d;grid-row-end:mmha-d;grid-row-start:mmha-d;height:50.2812px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #f5dfb8, #e7c15c);--mlfig-border:1px solid #555;grid-area: mmha-d" data-tip="Masked Self-Attention&#10;Causal mask prevents attending to future decoder positions">Masked
+            <br style="box-sizing:border-box;display:block;" />Multi-Head
+            <br style="box-sizing:border-box;display:block;" />Attention
+          </div>
+            <!-- Invisible split anchors — future skip-connection branch points below each sublayer -->
+            
+          <div id="split-encoder-attention" class="split" style="box-sizing:border-box;grid-column-end:sp-mha-e;grid-column-start:sp-mha-e;grid-row-end:sp-mha-e;grid-row-start:sp-mha-e;height:1px;justify-self:center;width:1px;grid-area: sp-mha-e">
+          </div>
+            
+          <div id="split-encoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:sp-ffe;grid-column-start:sp-ffe;grid-row-end:sp-ffe;grid-row-start:sp-ffe;height:1px;justify-self:center;width:1px;grid-area: sp-ffe">
+          </div>
+            
+          <div id="split-decoder-masked" class="split" style="box-sizing:border-box;grid-column-end:sp-mmha-d;grid-column-start:sp-mmha-d;grid-row-end:sp-mmha-d;grid-row-start:sp-mmha-d;height:1px;justify-self:center;width:1px;grid-area: sp-mmha-d">
+          </div>
+            
+          <div id="split-decoder-cross" class="split" style="box-sizing:border-box;grid-column-end:sp-mha-d;grid-column-start:sp-mha-d;grid-row-end:sp-mha-d;grid-row-start:sp-mha-d;height:1px;justify-self:center;width:1px;grid-area: sp-mha-d">
+          </div>
+            
+          <div id="split-decoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:sp-ffd;grid-column-start:sp-ffd;grid-row-end:sp-ffd;grid-row-start:sp-ffd;height:1px;justify-self:center;width:1px;grid-area: sp-ffd">
+          </div>
+            <!-- Skip-path middle-point anchors in cols 1, 3, 5 (left-skip, mid-skip, right-skip) -->
+            
+          <div id="leftskip-encoder-attention" class="split" style="box-sizing:border-box;grid-column-end:skl-mhae;grid-column-start:skl-mhae;grid-row-end:skl-mhae;grid-row-start:skl-mhae;height:1px;justify-self:center;width:1px;grid-area: skl-mhae">
+          </div>
+            
+          <div id="leftskip-encoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:skl-ffe;grid-column-start:skl-ffe;grid-row-end:skl-ffe;grid-row-start:skl-ffe;height:1px;justify-self:center;width:1px;grid-area: skl-ffe">
+          </div>
+            
+          <div id="leftskip-decoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:skl-ffd;grid-column-start:skl-ffd;grid-row-end:skl-ffd;grid-row-start:skl-ffd;height:1px;justify-self:center;width:1px;grid-area: skl-ffd">
+          </div>
+            
+          <div id="midskip-decoder-masked" class="split" style="box-sizing:border-box;grid-column-end:skm-mmhad;grid-column-start:skm-mmhad;grid-row-end:skm-mmhad;grid-row-start:skm-mmhad;height:1px;justify-self:center;width:1px;grid-area: skm-mmhad">
+          </div>
+            
+          <div id="midskip-decoder-cross" class="split" style="box-sizing:border-box;grid-column-end:skm-mhad;grid-column-start:skm-mhad;grid-row-end:skm-mhad;grid-row-start:skm-mhad;height:1px;justify-self:center;width:1px;grid-area: skm-mhad">
+          </div>
+            
+          <div id="midskip-decoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:skm-ffd;grid-column-start:skm-ffd;grid-row-end:skm-ffd;grid-row-start:skm-ffd;height:1px;justify-self:center;width:1px;grid-area: skm-ffd">
+          </div>
+            
+          <div id="rightskip-decoder-masked" class="split" style="box-sizing:border-box;grid-column-end:skr-mmhad;grid-column-start:skr-mmhad;grid-row-end:skr-mmhad;grid-row-start:skr-mmhad;height:1px;justify-self:center;width:1px;grid-area: skr-mmhad">
+          </div>
+            
+          <div id="rightskip-decoder-cross" class="split" style="box-sizing:border-box;grid-column-end:skr-mhad;grid-column-start:skr-mhad;grid-row-end:skr-mhad;grid-row-start:skr-mhad;height:1px;justify-self:center;width:1px;grid-area: skr-mhad">
+          </div>
+            
+          <div id="rightskip-decoder-ffn" class="split" style="box-sizing:border-box;grid-column-end:skr-ffd;grid-column-start:skr-ffd;grid-row-end:skr-ffd;grid-row-start:skr-ffd;height:1px;justify-self:center;width:1px;grid-area: skr-ffd">
+          </div>
+            
+          <div id="encoder-positional" class="sin-wave" style="background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-right-style:solid;border-right-width:1px;border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1px;box-sizing:border-box;cursor:pointer;grid-column-end:sin-e;grid-column-start:sin-e;grid-row-end:sin-e;grid-row-start:sin-e;height:34px;justify-self:center;position:relative;width:34px;z-index:1;grid-area: sin-e" data-tip="Sinusoidal Positional Encoding&#10;Injects position information into the input embeddings">
+              
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="box-sizing:border-box;display:block;height:32px;width:32px;">
+                
+              <path d="M3 12 Q 7 5, 12 12 T 21 12" fill="none" stroke="#000" stroke-width="1.2" style="box-sizing:border-box;"/>
+              
+            </svg>
+              
+            <div class="pos-label left" style="bottom:-20.7969px;box-sizing:border-box;color:rgb(100, 116, 139);height:36.7969px;left:-79.0625px;line-height:18.4px;position:absolute;right:38px;text-align:right;text-wrap-mode:nowrap;top:16px;transform:matrix(1, 0, 0, 1, 0, -18.3984);width:73.0625px;">Positional
+              <br style="box-sizing:border-box;" />Encoding
+            </div>
+            
+          </div>
+            
+          <div id="encoder-posadd" class="add-holder" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-right-style:solid;border-right-width:1px;border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:Arial, sans-serif;font-weight:700;grid-column-end:enc-add;grid-column-start:enc-add;grid-row-end:enc-add;grid-row-start:enc-add;height:28px;justify-content:center;justify-self:center;position:relative;width:28px;z-index:1;grid-area: enc-add;" data-tip="Adds positional encoding to the input embedding">+
+          </div>
+            
+          <div id="decoder-posadd" class="add-holder" style="align-items:center;background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-right-style:solid;border-right-width:1px;border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:Arial, sans-serif;font-weight:700;grid-column-end:dec-add;grid-column-start:dec-add;grid-row-end:dec-add;grid-row-start:dec-add;height:28px;justify-content:center;justify-self:center;position:relative;width:28px;z-index:1;grid-area: dec-add;" data-tip="Adds positional encoding to the output embedding">+
+          </div>
+            
+          <div id="decoder-positional" class="sin-wave" style="background-image:linear-gradient(to right, rgb(216, 204, 234), rgb(218, 209, 233));border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-right-style:solid;border-right-width:1px;border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1px;box-sizing:border-box;cursor:pointer;grid-column-end:sin-d;grid-column-start:sin-d;grid-row-end:sin-d;grid-row-start:sin-d;height:34px;justify-self:center;position:relative;width:34px;z-index:1;grid-area: sin-d" data-tip="Sinusoidal Positional Encoding&#10;Injects position information into the output embeddings">
+              
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="box-sizing:border-box;display:block;height:32px;width:32px;">
+                
+              <path d="M3 12 Q 7 5, 12 12 T 21 12" fill="none" stroke="#000" stroke-width="1.2" style="box-sizing:border-box;"/>
+              
+            </svg>
+              
+            <div class="pos-label right" style="bottom:-20.7969px;box-sizing:border-box;color:rgb(100, 116, 139);height:36.7969px;left:38px;line-height:18.4px;position:absolute;right:-79.0625px;text-align:left;text-wrap-mode:nowrap;top:16px;transform:matrix(1, 0, 0, 1, 0, -18.3984);width:73.0625px;">Positional
+              <br style="box-sizing:border-box;" />Encoding
+            </div>
+            
+          </div>
+            
+          <div id="input-embedding" class="mlfig-block embed" style="align-items:center;background-image:linear-gradient(to right, rgb(250, 189, 175), rgb(244, 227, 206));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:ie;grid-column-start:ie;grid-row-end:ie;grid-row-start:ie;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #fabdaf, #f4e3ce);--mlfig-border:1px solid #555;grid-area: ie;" data-tip="Input Embedding&#10;Maps input tokens to vectors of size &lt;math&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;">Input
+            <br style="box-sizing:border-box;display:block;" />Embedding
+          </div>
+            
+          <div id="output-embedding" class="mlfig-block embed" style="align-items:center;background-image:linear-gradient(to right, rgb(250, 189, 175), rgb(244, 227, 206));border-bottom-color:rgb(85, 85, 85);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1px;border-left-color:rgb(85, 85, 85);border-left-style:solid;border-left-width:1px;border-right-color:rgb(85, 85, 85);border-right-style:solid;border-right-width:1px;border-top-color:rgb(85, 85, 85);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1px;box-sizing:border-box;color:rgb(42, 42, 42);cursor:pointer;display:flex;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:14px;grid-column-end:oe;grid-column-start:oe;grid-row-end:oe;grid-row-start:oe;height:34.1875px;justify-content:center;justify-self:center;line-height:16.1px;position:relative;text-align:center;width:139.789px;z-index:1;--mlfig-bg:linear-gradient(to right, #fabdaf, #f4e3ce);--mlfig-border:1px solid #555;grid-area: oe;" data-tip="Output Embedding&#10;Maps previously generated tokens (shifted right) to vectors of size &lt;math&gt;&lt;msub&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;model&lt;/mi&gt;&lt;/msub&gt;&lt;/math&gt;">Output
+            <br style="box-sizing:border-box;display:block;" />Embedding
+          </div>
+            
+          <div id="input-label" class="io-label" style="box-sizing:border-box;color:rgb(100, 116, 139);grid-column-end:in-lbl;grid-column-start:in-lbl;grid-row-end:in-lbl;grid-row-start:in-lbl;height:35.1953px;line-height:20.8px;padding-bottom:6.4px;padding-top:8px;text-align:center;width:139.789px;grid-area: in-lbl">Inputs
+          </div>
+            
+          <div id="output-label" class="io-label" style="box-sizing:border-box;color:rgb(100, 116, 139);grid-column-end:out-lbl;grid-column-start:out-lbl;grid-row-end:out-lbl;grid-row-start:out-lbl;height:55.9922px;line-height:20.8px;padding-bottom:6.4px;padding-top:8px;text-align:center;width:139.789px;grid-area: out-lbl">Outputs (shifted right)
+          </div>
+          
+        </div>
+        
+        <div id="transformer-diagram-labels" style="bottom:0px;box-sizing:border-box;height:517.305px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:620px;z-index:2;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="transformer-diagram-fg-svg" class="mlfig-svg" width="620" height="517.3046875" style="bottom:0px;box-sizing:border-box;display:block;height:517.305px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:620px;z-index:10;z-index: 10;">
+          <defs style="box-sizing:border-box;"/>
+        </svg>
+        <div id="transformer-diagram-scroll-spacer" style="box-sizing:border-box;height:1px;margin-top:-1px;pointer-events:none;width:546px;height: 1px; pointer-events: none; margin-top: -1px; width: 546px;">
+        </div>
+        <div class="mlfig-tooltip-arrow mlfig-tooltip-arrow-shared" style="border-left-color:rgba(0, 0, 0, 0);border-left-style:solid;border-left-width:6px;border-right-color:rgba(0, 0, 0, 0);border-right-style:solid;border-right-width:6px;border-top-style:solid;border-top-width:6px;bottom:126.18px;box-sizing:border-box;content:&quot;&quot;;grid-column-start:1;grid-row-start:1;height:6px;left:439.348px;opacity:0;pointer-events:none;position:absolute;right:168.656px;top:385.125px;transform:matrix(1, 0, 0, 1, -6, 0);visibility:hidden;width:12px;z-index:200;position: absolute; z-index: 200; left: 439.348px; transform: translateX(-50%); opacity: 0; visibility: hidden; top: auto; bottom: 126.18px; border-top: 6px solid var(--text-primary); border-bottom: none;">
+        </div>
+      </div>
+    </div>
+  </foreignObject><text x="4" y="504" font-family="'SF Mono', Monaco, monospace" font-size="10" fill="#f1f5f9">© 2026 IVRL/ml-figure-template</text>
+</svg>

@@ -1,0 +1,45 @@
+ML Figure Template License
+
+This license is based on the MIT License, with two added restrictions:
+  (1) you may not remove or hide the attribution / credit watermark rendered
+      by the Software, and
+  (2) you may not repackage the Software (the template/library code itself)
+      and sell it.
+
+Copyright (c) 2026 EPFL-IVRL and Martin Everaert
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, and display the Software, including on commercial project pages,
+subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Attribution must be preserved. Specifically:
+   (a) The credit element rendered by the Software in each diagram (the small
+       "i" info button in the bottom-left corner of every .mlfig container,
+       which links back to this repository) must not be removed, hidden,
+       obscured, restyled to be invisible, or otherwise made inaccessible to
+       end users.
+   (b) The credit text and copyright comment embedded by the "Save as SVG"
+       export ("© 2026 IVRL/ml-figure-template" and the header comment
+       pointing to https://github.com/IVRL/ml-figure-template) must not be
+       removed or altered in exported SVG files.
+   (c) Any project page, paper, slide deck, or other work that displays a
+       diagram produced with this Software is encouraged (but not required)
+       to additionally link to https://github.com/IVRL/ml-figure-template.
+
+3. You may NOT modify, adapt, repackage, or create derivative works of the
+   Software for the purpose of selling, sublicensing, or commercially
+   distributing the modified Software itself. This restriction applies to the
+   template/library code, not to the diagrams or project pages you create
+   with it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

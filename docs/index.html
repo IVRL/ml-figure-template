@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ML Figure Template - Examples</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/template.css">
+  <link rel="stylesheet" href="static/css/sections.css">
+  <link rel="stylesheet" href="static/ml-figure-template/ml-figure-template.css">
+
+  <!-- Additional CSS -->
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/template.js"></script>
+  <script defer src="static/ml-figure-template/ml-figure-template.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+
+    <!-- ════════════════════════════════════════════════════════════════ -->
+    <!-- Documentation -->
+    <!-- ════════════════════════════════════════════════════════════════ -->
+
+    <!-- Hero / Title -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">ML Figure Template</h1>
+              <h2 class="subtitle is-4">Interactive architecture diagrams for academic project pages</h2>
+              <p class="is-size-6">
+                A lightweight, dependency-free library for building responsive, interactive ML architecture diagrams that look great on a project page <em>and</em> export to a self-contained SVG for your paper.
+              </p>
+
+              <!-- Publication / project links -->
+              <div class="publication-links" style="margin-top: 1.25rem;">
+                <span class="link-block">
+                  <a href="https://github.com/IVRL/ml-figure-template" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/IVRL/ml-figure-template#readme" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-book"></i></span>
+                    <span>Docs</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro / how to read the rest of the page -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container is-max-desktop content has-text-centered">
+        <h2 class="title is-3">Getting started</h2>
+        <p>
+          The library and a short documentation are available on the
+          <a href="https://github.com/IVRL/ml-figure-template" target="_blank">GitHub repository</a>.
+          Three minimal walk-throughs are provided as standalone HTML files:
+          <a href="https://ivrl.github.io/ml-figure-template/docs/quickstart1.html" target="_blank">quickstart 1</a>,
+          <a href="https://ivrl.github.io/ml-figure-template/docs/quickstart2.html" target="_blank">quickstart 2</a>, and
+          <a href="https://ivrl.github.io/ml-figure-template/docs/quickstart3.html" target="_blank">quickstart 3</a>.
+          They are the best place to start.
+        </p>
+        <p>
+          Below are more advanced examples.
+        </p>
+      </div>
+    </section>
+
+    <!-- GPT (Decoder-only Transformer) -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">GPT (default style)</h2>
+        <p class="subtitle is-6 has-text-centered has-text-grey">
+          Original GPT architecture: <a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf" target="_blank">Radford et al., <em>Improving Language Understanding by Generative Pre-Training</em></a>
+        </p>
+        <div class="mlfig" id="gpt-diagram" style="min-width: 360px;">
+          <!-- Diagram-specific styles -->
+          <style>
+            #gpt-diagram .frozen   { --mlfig-bg: #dbeafe; --mlfig-border: 1.5px solid #60a5fa; }
+            #gpt-diagram .amber    { --mlfig-bg: #fef3c7; --mlfig-border: 1.5px solid #f59e0b; }
+            #gpt-diagram .pink     { --mlfig-bg: #fce7f3; --mlfig-border: 1.5px solid #f472b6; }
+            #gpt-diagram .dim      { font-size: 0.8rem; color: #94a3b8; font-family: 'SF Mono', 'Monaco', monospace; }
+            #gpt-diagram .output   { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                                     padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+            #gpt-diagram .small    { padding: 0.45rem 0.8rem; font-size: 0.85rem; margin: 0 0.25rem; }
+            #gpt-diagram .add      { justify-self: center; margin: -0.375rem 0; width: 32px; height: 32px; border-radius: 50%;
+                                     background: #f1f5f9; border: 1.5px solid #e2e8f0; display: flex; align-items: center;
+                                     justify-content: center; font-size: 1.1rem; font-weight: 700; color: #64748b; cursor: default; }
+          </style>
+          <script type="application/json">
+          {
+            "arrows": [
+              { "from": "input",    "to": "tok-emb" },
+              { "from": "tok-emb",  "to": "embedding-sum",   "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "pos-emb",  "to": "embedding-sum",   "toSide": "left", "route": "l", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>", "labelSide": "left" },
+              { "from": "embedding-sum", "to": "layer-norm-1", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "layer-norm-1", "to": "attention",   "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "attention", "to": "residual-1" },
+              { "from": "split-attention", "to": "skip-attention", "fromSide": "center", "toSide": "center", "route": "l", "noArrow": true },
+              { "from": "skip-attention",  "to": "residual-1",     "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true, "label": "Skip Connection" },
+              { "from": "residual-1", "to": "layer-norm-2", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>", "labelSide": "left" },
+              { "from": "layer-norm-2", "to": "feed-forward", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "feed-forward", "to": "residual-2" },
+              { "from": "split-ffn", "to": "skip-ffn",       "fromSide": "center", "toSide": "center", "route": "l", "noArrow": true },
+              { "from": "skip-ffn",  "to": "residual-2",     "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true, "label": "Skip Connection" },
+              { "from": "residual-2", "to": "final-norm",   "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "final-norm", "to": "output-projection", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "output-projection", "to": "softmax", "label": "vocabulary size" },
+              { "from": "softmax",  "to": "output" }
+            ],
+            "boundingBoxes": [
+              {
+                "hExtent": ["split-attention","layer-norm-1","attention","residual-1","split-ffn","layer-norm-2","feed-forward","residual-2","skip-attention","skip-ffn"],
+                "vExtent": ["split-attention","layer-norm-1","attention","residual-1","split-ffn","layer-norm-2","feed-forward","residual-2"],
+                "label": "× N transformer blocks",
+                "color": "#6366f1",
+                "paddingX": 20,
+                "paddingY": 10
+              }
+            ]
+          }
+          </script>
+          <div class="mlfig-grid" style="
+            grid-template-columns: 1fr 3fr 0.5fr;
+            grid-template-areas:
+              'pos-emb  input    .'
+              '.        tok-emb  .'
+              '.        add      .'
+              '.        gap1     .'
+              '.        sb1      sk1'
+              '.        ln1      sk1'
+              '.        mha      sk1'
+              '.        res1     sk1'
+              '.        sb2      sk2'
+              '.        ln2      sk2'
+              '.        ffn      sk2'
+              '.        res2     sk2'
+              '.        gap2     .'
+              '.        lnf      .'
+              '.        head     .'
+              '.        soft     .'
+              '.        output   .';
+            gap: 2.5rem 0.5rem;
+            max-width: 560px;
+            margin: 0 auto;
+          ">
+            <div id="input" class="output" style="grid-area:input">Input tokens<br><span class="dim">sequence length</span></div>
+            <div id="pos-emb" class="mlfig-block frozen" style="grid-area:pos-emb" data-tip="Positional Embeddings&#10;Learned or sinusoidal&#10;Shape: seq_len × d_model">Positional Emb.</div>
+            <div id="tok-emb" class="mlfig-block" style="grid-area:tok-emb" data-tip="Token Embedding&#10;Lookup table: vocab_size → d_model&#10;Output: seq_len × d_model">Token Embedding</div>
+            <div id="embedding-sum" class="add" style="grid-area:add">+</div>
+            <div style="grid-area:gap1"></div>
+            <div id="split-attention" style="grid-area:sb1; height:0;"></div>
+            <div id="skip-attention" style="grid-area:sk1;"></div>
+            <div id="layer-norm-1" class="mlfig-block small" style="grid-area:ln1" data-tip="Layer Norm 1&#10;Pre-norm variant">LayerNorm</div>
+            <div id="attention" class="mlfig-block amber" style="grid-area:mha" data-tip="Masked Multi-Head Self-Attention&#10;Causal mask prevents attending to future tokens&#10;h heads, d_k = d_model / h">Masked Multi-Head Attention</div>
+            <div id="residual-1" class="add" style="grid-area:res1">+</div>
+            <div id="split-ffn" style="grid-area:sb2; height:0;"></div>
+            <div id="skip-ffn" style="grid-area:sk2;"></div>
+            <div id="layer-norm-2" class="mlfig-block small" style="grid-area:ln2" data-tip="Layer Norm 2&#10;Pre-norm variant">LayerNorm</div>
+            <div id="feed-forward" class="mlfig-block" style="grid-area:ffn" data-tip="Feed-Forward Network&#10;Two linear layers with GELU&#10;d_model → 4·d_model → d_model">FFN (MLP)</div>
+            <div id="residual-2" class="add" style="grid-area:res2">+</div>
+            <div style="grid-area:gap2"></div>
+            <div id="final-norm" class="mlfig-block small" style="grid-area:lnf" data-tip="Final Layer Norm&#10;Applied after last transformer block">LayerNorm (final)</div>
+            <div id="output-projection" class="mlfig-block" style="grid-area:head" data-tip="Linear projection&#10;d_model → vocab_size&#10;Often tied with token embedding weights">Linear Head</div>
+            <div id="softmax" class="mlfig-block pink" style="grid-area:soft" data-tip="Softmax over vocabulary&#10;Output: probability distribution over vocab_size tokens">Softmax</div>
+            <div id="output" class="output" style="grid-area:output">Next-token probabilities<br><span class="dim">sequence length × vocabulary size</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GPT (Bottom-to-Top) -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">GPT (stylized)</h2>
+        <div class="mlfig" id="gpt-bt-diagram" style="
+          min-width: 360px;
+          --mlfig-radius: 12px;
+          --mlfig-font-size: 0.9rem;
+          --mlfig-font-weight: 500;
+          --mlfig-color: #4a4a4a;
+          --mlfig-border: none;
+          --mlfig-shadow: 0 2px 6px rgba(0,0,0,0.08);
+          --mlfig-add-bg: #f0ede8;
+          --mlfig-add-border: 1px solid #d5d0c8;
+          --mlfig-add-color: #888;
+        ">
+          <!-- Diagram-specific styles: gradient color variants -->
+          <style>
+            #gpt-bt-diagram .attention { --mlfig-bg: linear-gradient(to right, #fde0c8, #f0a0a0); }
+            #gpt-bt-diagram .ffn       { --mlfig-bg: linear-gradient(to right, #fde68a, #f5a623); }
+            #gpt-bt-diagram .norm      { --mlfig-bg: linear-gradient(to right, #f7f4ef, #ede8d8); }
+            #gpt-bt-diagram .linear    { --mlfig-bg: linear-gradient(to right, #e4d8f0, #b8b0e8); }
+            #gpt-bt-diagram .softmax   { --mlfig-bg: linear-gradient(to right, #c8f0d8, #a0d0e8); }
+            #gpt-bt-diagram .embed     { --mlfig-bg: linear-gradient(to right, #e0f0a0, #90c870); }
+            #gpt-bt-diagram .dim       { font-size: 0.8rem; color: #94a3b8; font-family: 'SF Mono', 'Monaco', monospace; }
+            #gpt-bt-diagram .output    { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                                         padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+            #gpt-bt-diagram .add       { justify-self: center; margin: -0.375rem 0; width: 32px; height: 32px; border-radius: 50%;
+                                         background: var(--mlfig-add-bg); border: var(--mlfig-add-border); display: flex; align-items: center;
+                                         justify-content: center; font-size: 1.1rem; font-weight: 700; color: var(--mlfig-add-color); cursor: default; }
+          </style>
+          <script type="application/json">
+          {
+            "arrows": [
+              { "from": "input",    "to": "tok-emb",  "fromSide": "top", "toSide": "bottom" },
+              { "from": "tok-emb",  "to": "embedding-sum", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "pos-emb",  "to": "embedding-sum", "fromSide": "right", "toSide": "left", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "embedding-sum", "to": "layer-norm-1", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "layer-norm-1", "to": "attention", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "attention", "to": "residual-1", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-attention", "to": "skip-attention", "fromSide": "center", "toSide": "center", "route": "l", "noArrow": true },
+              { "from": "skip-attention",  "to": "residual-1", "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true, "label": "Skip Connection" },
+              { "from": "residual-1", "to": "layer-norm-2", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>", "labelSide": "left" },
+              { "from": "layer-norm-2", "to": "feed-forward", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "feed-forward", "to": "residual-2", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-ffn", "to": "skip-ffn", "fromSide": "center", "toSide": "center", "route": "l", "noArrow": true },
+              { "from": "skip-ffn",  "to": "residual-2", "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true, "label": "Skip Connection" },
+              { "from": "residual-2", "to": "final-norm", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "final-norm", "to": "output-projection", "fromSide": "top", "toSide": "bottom", "label": "<math><msub><mi>d</mi><mi>model</mi></msub></math>" },
+              { "from": "output-projection", "to": "softmax", "fromSide": "top", "toSide": "bottom", "label": "vocabulary size" },
+              { "from": "softmax",  "to": "output",   "fromSide": "top", "toSide": "bottom" }
+            ],
+            "boundingBoxes": [
+              {
+                "hExtent": ["split-attention","layer-norm-1","attention","residual-1","split-ffn","layer-norm-2","feed-forward","residual-2","skip-attention","skip-ffn"],
+                "vExtent": ["split-attention","layer-norm-1","attention","residual-1","split-ffn","layer-norm-2","feed-forward","residual-2"],
+                "label": "× N transformer blocks",
+                "color": "#b0bec5",
+                "paddingX": 20,
+                "paddingY": 10,
+                "filled": true
+              }
+            ]
+          }
+          </script>
+          <div class="mlfig-grid" style="
+            grid-template-columns: 1fr 3fr 0.5fr;
+            grid-template-areas:
+              '.        output   .'
+              '.        soft     .'
+              '.        head     .'
+              '.        lnf      .'
+              '.        gap2     .'
+              '.        res2     sk2'
+              '.        ffn      sk2'
+              '.        ln2      sk2'
+              '.        sb2      sk2'
+              '.        res1     sk1'
+              '.        mha      sk1'
+              '.        ln1      sk1'
+              '.        sb1      sk1'
+              '.        gap1     .'
+              'pos-emb  add      .'
+              '.        tok-emb  .'
+              '.        input    .';
+            gap: 2.5rem 0.5rem;
+            max-width: 560px;
+            margin: 0 auto;
+          ">
+            <div id="input" class="output" style="grid-area:input">Input tokens<br><span class="dim">sequence length</span></div>
+            <div id="pos-emb" class="mlfig-block embed" style="grid-area:pos-emb" data-tip="Positional Embeddings&#10;Learned or sinusoidal&#10;Shape: seq_len × d_model">Positional Emb.</div>
+            <div id="tok-emb" class="mlfig-block embed" style="grid-area:tok-emb" data-tip="Token Embedding&#10;Lookup table: vocab_size → d_model&#10;Output: seq_len × d_model">Token Embedding</div>
+            <div id="embedding-sum" class="add" style="grid-area:add">+</div>
+            <div style="grid-area:gap1"></div>
+            <div id="split-attention" style="grid-area:sb1; height:0;"></div>
+            <div id="skip-attention" style="grid-area:sk1;"></div>
+            <div id="layer-norm-1" class="mlfig-block norm" style="grid-area:ln1" data-tip="Layer Norm 1&#10;Pre-norm variant">LayerNorm</div>
+            <div id="attention" class="mlfig-block attention" style="grid-area:mha" data-tip="Masked Multi-Head Self-Attention&#10;Causal mask prevents attending to future tokens&#10;h heads, d_k = d_model / h">Masked Multi-Head Attention</div>
+            <div id="residual-1" class="add" style="grid-area:res1">+</div>
+            <div id="split-ffn" style="grid-area:sb2; height:0;"></div>
+            <div id="skip-ffn" style="grid-area:sk2;"></div>
+            <div id="layer-norm-2" class="mlfig-block norm" style="grid-area:ln2" data-tip="Layer Norm 2&#10;Pre-norm variant">LayerNorm</div>
+            <div id="feed-forward" class="mlfig-block ffn" style="grid-area:ffn" data-tip="Feed-Forward Network&#10;Two linear layers with GELU&#10;d_model → 4·d_model → d_model">FFN (MLP)</div>
+            <div id="residual-2" class="add" style="grid-area:res2">+</div>
+            <div style="grid-area:gap2"></div>
+            <div id="final-norm" class="mlfig-block norm" style="grid-area:lnf" data-tip="Final Layer Norm&#10;Applied after last transformer block">LayerNorm (final)</div>
+            <div id="output-projection" class="mlfig-block linear" style="grid-area:head" data-tip="Linear projection&#10;d_model → vocab_size&#10;Often tied with token embedding weights">Linear Head</div>
+            <div id="softmax" class="mlfig-block softmax" style="grid-area:soft" data-tip="Softmax over vocabulary&#10;Output: probability distribution over vocab_size tokens">Softmax</div>
+            <div id="output" class="output" style="grid-area:output">Next-token probabilities<br><span class="dim">sequence length × vocabulary size</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformer (Vaswani et al.) -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">Transformer (stylized)</h2>
+        <p class="subtitle is-6 has-text-centered has-text-grey">
+          Original Transformer architecture: <a href="https://arxiv.org/abs/1706.03762" target="_blank">Vaswani et al., <em>Attention Is All You Need</em></a><br>
+          Layout and colors inspired by <a href="https://github.com/dair-ai/ml-visuals/blob/master/2.png" target="_blank">dair-ai/ml-visuals/2.png</a>
+        </p>
+        <div class="mlfig" id="transformer-diagram" style="width: 100%; max-width: 620px; margin: 0 auto; padding-top: 4px;">
+          <style>
+            /* Gradient fills sampled from the target image. Dark border per target. */
+            #transformer-diagram .embed    { --mlfig-bg: linear-gradient(to right, #fabdaf, #f4e3ce);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .attn     { --mlfig-bg: linear-gradient(to right, #f5dfb8, #e7c15c);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .ffn      { --mlfig-bg: linear-gradient(to right, #00fcff, #9fddf0);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .addnorm  { --mlfig-bg: linear-gradient(to right, #d8ccea, #dad1e9);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .linear   { --mlfig-bg: linear-gradient(to right, #d8ccea, #dad1e9);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .softmax  { --mlfig-bg: linear-gradient(to right, #bed9ae, #e5eccc);
+                                    --mlfig-border: 1px solid #555; }
+            #transformer-diagram .mlfig-block { padding: 0; border-radius: 8px; justify-self: center;
+                                      display: flex; align-items: center; justify-content: center;
+                                      font-family: 'Helvetica Neue', Arial, sans-serif;
+                                      font-size: 14px; font-weight: 400; color: #2a2a2a;
+                                      text-align: center; line-height: 1.15; }
+            /* Flatten the grey bounding-box corners (target has square corners) */
+            #transformer-diagram .mlfig-svg rect { rx: 0; ry: 0; }
+            /* Blocks stretch to fill their 3-column span */
+            #transformer-diagram .mlfig-block { width: 100%; box-sizing: border-box; }
+            /* Invisible split anchors (future skip-connection branch points) */
+            #transformer-diagram .split { width: 1px; height: 1px; justify-self: center; }
+            /* middle column (cross-attention skip path) — centered */
+            #transformer-diagram [id^="midskip-"] { justify-self: center; }
+            #transformer-diagram .pos-label { position: absolute; top: 50%; transform: translateY(-50%);
+                                     white-space: nowrap; color: #64748b;
+                                     line-height: 1.15; }
+            #transformer-diagram .pos-label.left  { right: calc(100% + 6px); text-align: right; }
+            #transformer-diagram .pos-label.right { left: calc(100% + 6px);  text-align: left; }
+            #transformer-diagram .sin-wave { width: 34px; height: 34px; justify-self: center;
+                                    position: relative; border-radius: 50%; border: 1px solid #000;
+                                    background: linear-gradient(to right, #d8ccea, #dad1e9); box-sizing: border-box;
+                                    transition: box-shadow 0.2s, transform 0.2s; }
+            #transformer-diagram .sin-wave:hover,
+            #transformer-diagram .add-holder:hover {
+              box-shadow: var(--shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1));
+              transform: translateY(-1px);
+            }
+            #transformer-diagram .sin-wave svg { width: 100%; height: 100%; display: block; }
+            #transformer-diagram .io-label { text-align: center; color: #64748b;
+                                    padding-top: 0.5rem; padding-bottom: 0.4rem; line-height: 1.3; }
+            #transformer-diagram .add-holder { justify-self: center; width: 28px; height: 28px; border-radius: 50%;
+                                      background: linear-gradient(to right, #d8ccea, #dad1e9);
+                                      border: 1px solid #000; color: #2a2a2a; box-sizing: border-box;
+                                      display: flex; align-items: center; justify-content: center;
+                                      font-size: 1rem; font-weight: 700; font-family: Arial, sans-serif;
+                                      position: relative; transition: box-shadow 0.2s, transform 0.2s; }
+          </style>
+          <script type="application/json">
+          { "defaults": { "strokeColor": "#555", "strokeWidth": 1, "markerWidth": 4, "markerHeight": 5 },
+            "arrows": [
+              { "from": "encoder-positional", "to": "encoder-posadd", "fromSide": "right", "toSide": "left", "noArrow": true },
+              { "from": "decoder-posadd", "to": "decoder-positional", "fromSide": "right", "toSide": "left", "noArrow": true },
+              { "from": "input-label",  "to": "input-embedding",  "fromSide": "top", "toSide": "bottom" },
+              { "from": "output-label", "to": "output-embedding", "fromSide": "top", "toSide": "bottom" },
+              { "from": "input-embedding", "to": "encoder-posadd", "fromSide": "top", "toSide": "bottom" },
+              { "from": "encoder-posadd", "to": "split-encoder-attention", "fromSide": "top", "toSide": "bottom", "noArrow": true },
+              { "from": "encoder-attention", "to": "encoder-addnorm-1", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-encoder-attention", "to": "encoder-attention", "fromSide": "top", "toSide": "bottom" },
+              { "from": "encoder-addnorm-1", "to": "split-encoder-ffn", "fromSide": "top", "toSide": "bottom", "noArrow": true },
+              { "from": "encoder-ffn", "to": "encoder-addnorm-2", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-encoder-ffn", "to": "encoder-ffn", "fromSide": "top", "toSide": "bottom" },
+              { "from": "output-embedding", "to": "decoder-posadd", "fromSide": "top", "toSide": "bottom" },
+              { "from": "decoder-posadd", "to": "split-decoder-masked", "fromSide": "top", "toSide": "bottom", "noArrow": true },
+              { "from": "decoder-masked-attention", "to": "decoder-addnorm-1", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-decoder-masked", "to": "decoder-masked-attention", "fromSide": "top", "toSide": "bottom" },
+              { "from": "decoder-addnorm-1", "to": "split-decoder-cross", "fromSide": "top", "toSide": "bottom", "noArrow": true },
+              { "from": "decoder-cross-attention", "to": "decoder-addnorm-2", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-decoder-cross", "to": "decoder-cross-attention", "fromSide": "top", "toSide": "bottom" },
+              { "from": "decoder-addnorm-2", "to": "split-decoder-ffn", "fromSide": "top", "toSide": "bottom", "noArrow": true },
+              { "from": "decoder-ffn", "to": "decoder-addnorm-3", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-decoder-ffn", "to": "decoder-ffn", "fromSide": "top", "toSide": "bottom" },
+              { "from": "decoder-addnorm-3", "to": "output-linear", "fromSide": "top", "toSide": "bottom" },
+              { "from": "output-linear", "to": "softmax", "fromSide": "top", "toSide": "bottom" },
+              { "from": "split-encoder-attention", "to": "leftskip-encoder-attention", "fromSide": "center", "toSide": "center", "noArrow": true },
+              { "from": "leftskip-encoder-attention", "to": "encoder-addnorm-1", "fromSide": "center", "toSide": "left", "route": "l", "verticalFirst": true },
+              { "from": "split-encoder-ffn", "to": "leftskip-encoder-ffn", "fromSide": "center", "toSide": "center", "noArrow": true },
+              { "from": "leftskip-encoder-ffn", "to": "encoder-addnorm-2", "fromSide": "center", "toSide": "left", "route": "l", "verticalFirst": true },
+              { "from": "split-decoder-masked", "to": "rightskip-decoder-masked", "fromSide": "center", "toSide": "center", "noArrow": true },
+              { "from": "rightskip-decoder-masked", "to": "decoder-addnorm-1", "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true },
+              { "from": "split-decoder-cross", "to": "rightskip-decoder-cross", "fromSide": "center", "toSide": "center", "noArrow": true },
+              { "from": "rightskip-decoder-cross", "to": "decoder-addnorm-2", "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true },
+              { "from": "split-decoder-ffn", "to": "rightskip-decoder-ffn", "fromSide": "center", "toSide": "center", "noArrow": true },
+              { "from": "rightskip-decoder-ffn", "to": "decoder-addnorm-3", "fromSide": "center", "toSide": "right", "route": "l", "verticalFirst": true },
+              { "from": "encoder-addnorm-2", "to": "midskip-decoder-ffn", "fromSide": "top", "toSide": "center", "toOffsetY": -8, "route": "l", "verticalFirst": true, "noArrow": true },
+              { "from": "midskip-decoder-ffn", "to": "midskip-decoder-cross", "fromSide": "center", "fromOffsetY": -8, "toSide": "center", "noArrow": true },
+              { "from": "midskip-decoder-cross", "to": "decoder-cross-attention", "fromSide": "center", "toSide": "bottom", "toOffsetX": "-36%", "route": "l", "verticalFirst": false },
+              { "from": "midskip-decoder-cross", "to": "decoder-cross-attention", "fromSide": "center", "toSide": "bottom", "toOffsetX": "-23%", "route": "l", "verticalFirst": false }
+            ],
+            "boundingBoxes": [
+              { "hExtent": ["leftskip-encoder-attention","leftskip-encoder-ffn","encoder-attention","encoder-addnorm-1","encoder-ffn","encoder-addnorm-2","split-encoder-attention","split-encoder-ffn"],
+                "vExtent": ["encoder-addnorm-2","split-encoder-attention","leftskip-encoder-attention","leftskip-encoder-ffn"],
+                "paddingX": 13, "paddingY": 8, "filled": true, "color": "#cccccc", "fillColor": "#dddddd" },
+              { "hExtent": ["rightskip-decoder-masked","rightskip-decoder-cross","rightskip-decoder-ffn","decoder-masked-attention","decoder-addnorm-1","decoder-cross-attention","decoder-addnorm-2","decoder-ffn","decoder-addnorm-3","split-decoder-masked","split-decoder-cross","split-decoder-ffn"],
+                "vExtent": ["decoder-addnorm-3","split-decoder-masked","rightskip-decoder-masked","rightskip-decoder-ffn"],
+                "paddingX": 13, "paddingY": 8, "filled": true, "color": "#cccccc", "fillColor": "#dddddd" }
+            ],
+            "paths": [] }
+          </script>
+          <div class="mlfig-grid" data-row-gaps="18 24 11 7 5 11 9 9 11 7 15 16 10" style="
+            /* First and last columns are empty spacers that give the absolutely-positioned
+               Positional Encoding labels room to render outside sin-e / sin-d without
+               getting cropped by the grid or surrounding container. */
+            grid-template-columns: 50px 38fr minmax(32px, 40fr) 79fr minmax(32px, 40fr) minmax(16px, 136fr) minmax(32px, 40fr) 79fr minmax(32px, 40fr) 38fr 50px;
+            grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+            grid-template-areas:
+              '. .        .      .        .      .          soft    soft      soft    .         .'
+              '. .        .      .        .      .          lin     lin       lin     .         .'
+              '. .        .      .        .      .          an-d3   an-d3     an-d3   .         .'
+              '. .        .      .        .      .          ffd     ffd       ffd     .         .'
+              '. skl-ffd  .      .        .      skm-ffd    .       sp-ffd    .       skr-ffd   .'
+              '. .        an-e2  an-e2    an-e2  .          an-d2   an-d2     an-d2   .         .'
+              '. .        ffe    ffe      ffe    .          mha-d   mha-d     mha-d   .         .'
+              '. skl-ffe  .      sp-ffe   .      skm-mhad   .       sp-mha-d  .       skr-mhad  .'
+              '. .        an-e1  an-e1    an-e1  .          an-d1   an-d1     an-d1   .         .'
+              '. .        mha-e  mha-e    mha-e  .          mmha-d  mmha-d    mmha-d  .         .'
+              '. skl-mhae .      sp-mha-e .      skm-mmhad  .       sp-mmha-d .       skr-mmhad .'
+              '. .        sin-e  enc-add  .      .          .       dec-add   sin-d   .         .'
+              '. .        ie     ie       ie     .          oe      oe        oe      .         .'
+              '. .        in-lbl in-lbl   in-lbl .          out-lbl out-lbl   out-lbl .         .';
+            column-gap: 8px;
+            row-gap: 0;
+            margin: 0 auto;
+          ">
+            <div id="softmax" class="mlfig-block softmax" style="grid-area: soft" data-tip="Softmax&#10;Converts logits to a probability distribution over the vocabulary" data-tip-position="bottom">Softmax</div>
+            <div id="output-linear"  class="mlfig-block linear" style="grid-area: lin" data-tip="Linear projection&#10;<math><msub><mi>d</mi><mi>model</mi></msub><mo>&rarr;</mo><mtext>vocab size</mtext></math>" data-tip-position="bottom">Linear</div>
+            <div id="decoder-addnorm-3"  class="mlfig-block addnorm" style="grid-area: an-d3" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after the decoder FFN">Add &amp; Norm</div>
+            <div id="decoder-ffn"    class="mlfig-block ffn" style="grid-area: ffd" data-tip="Decoder Feed-Forward&#10;Position-wise MLP: <math><msub><mi>d</mi><mi>model</mi></msub><mo>&rarr;</mo><mn>4</mn><mo>&middot;</mo><msub><mi>d</mi><mi>model</mi></msub><mo>&rarr;</mo><msub><mi>d</mi><mi>model</mi></msub></math>">Feed<br>Forward</div>
+            <div id="encoder-addnorm-2"  class="mlfig-block addnorm" style="grid-area: an-e2" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after the encoder FFN">Add &amp; Norm</div>
+            <div id="decoder-addnorm-2"  class="mlfig-block addnorm" style="grid-area: an-d2" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after decoder cross-attention">Add &amp; Norm</div>
+            <div id="encoder-ffn"    class="mlfig-block ffn" style="grid-area: ffe" data-tip="Encoder Feed-Forward&#10;Position-wise MLP: <math><msub><mi>d</mi><mi>model</mi></msub><mo>&rarr;</mo><mn>4</mn><mo>&middot;</mo><msub><mi>d</mi><mi>model</mi></msub><mo>&rarr;</mo><msub><mi>d</mi><mi>model</mi></msub></math>">Feed<br>Forward</div>
+            <div id="decoder-cross-attention"  class="mlfig-block attn" style="grid-area: mha-d" data-tip="Cross-Attention&#10;Queries from the decoder, keys/values from the encoder output">Multi-Head<br>Attention</div>
+            <div id="encoder-addnorm-1"  class="mlfig-block addnorm" style="grid-area: an-e1" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after encoder self-attention">Add &amp; Norm</div>
+            <div id="decoder-addnorm-1"  class="mlfig-block addnorm" style="grid-area: an-d1" data-tip="Add &amp; Norm&#10;Residual connection + LayerNorm after masked self-attention">Add &amp; Norm</div>
+            <div id="encoder-attention"  class="mlfig-block attn" style="grid-area: mha-e" data-tip="Encoder Self-Attention&#10;Each position attends to all encoder positions">Multi-Head<br>Attention</div>
+            <div id="decoder-masked-attention" class="mlfig-block attn" style="grid-area: mmha-d" data-tip="Masked Self-Attention&#10;Causal mask prevents attending to future decoder positions">Masked<br>Multi-Head<br>Attention</div>
+            <!-- Invisible split anchors — future skip-connection branch points below each sublayer -->
+            <div id="split-encoder-attention"  class="split" style="grid-area: sp-mha-e"></div>
+            <div id="split-encoder-ffn"    class="split" style="grid-area: sp-ffe"></div>
+            <div id="split-decoder-masked" class="split" style="grid-area: sp-mmha-d"></div>
+            <div id="split-decoder-cross"  class="split" style="grid-area: sp-mha-d"></div>
+            <div id="split-decoder-ffn"    class="split" style="grid-area: sp-ffd"></div>
+            <!-- Skip-path middle-point anchors in cols 1, 3, 5 (left-skip, mid-skip, right-skip) -->
+            <div id="leftskip-encoder-attention"  class="split" style="grid-area: skl-mhae"></div>
+            <div id="leftskip-encoder-ffn"   class="split" style="grid-area: skl-ffe"></div>
+            <div id="leftskip-decoder-ffn"   class="split" style="grid-area: skl-ffd"></div>
+            <div id="midskip-decoder-masked" class="split" style="grid-area: skm-mmhad"></div>
+            <div id="midskip-decoder-cross"  class="split" style="grid-area: skm-mhad"></div>
+            <div id="midskip-decoder-ffn"   class="split" style="grid-area: skm-ffd"></div>
+            <div id="rightskip-decoder-masked" class="split" style="grid-area: skr-mmhad"></div>
+            <div id="rightskip-decoder-cross"  class="split" style="grid-area: skr-mhad"></div>
+            <div id="rightskip-decoder-ffn"   class="split" style="grid-area: skr-ffd"></div>
+            <div id="encoder-positional" class="sin-wave" style="grid-area: sin-e" data-tip="Sinusoidal Positional Encoding&#10;Injects position information into the input embeddings">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 12 Q 7 5, 12 12 T 21 12" fill="none" stroke="#000" stroke-width="1.2"/>
+              </svg>
+              <div class="pos-label left">Positional<br>Encoding</div>
+            </div>
+            <div id="encoder-posadd" class="add-holder" style="grid-area: enc-add;" data-tip="Adds positional encoding to the input embedding">+</div>
+            <div id="decoder-posadd" class="add-holder" style="grid-area: dec-add;" data-tip="Adds positional encoding to the output embedding">+</div>
+            <div id="decoder-positional" class="sin-wave" style="grid-area: sin-d" data-tip="Sinusoidal Positional Encoding&#10;Injects position information into the output embeddings">
+              <svg viewBox="0 0 24 24">
+                <path d="M3 12 Q 7 5, 12 12 T 21 12" fill="none" stroke="#000" stroke-width="1.2"/>
+              </svg>
+              <div class="pos-label right">Positional<br>Encoding</div>
+            </div>
+            <div id="input-embedding" class="mlfig-block embed" style="grid-area: ie;" data-tip="Input Embedding&#10;Maps input tokens to vectors of size <math><msub><mi>d</mi><mi>model</mi></msub></math>">Input<br>Embedding</div>
+            <div id="output-embedding" class="mlfig-block embed" style="grid-area: oe;" data-tip="Output Embedding&#10;Maps previously generated tokens (shifted right) to vectors of size <math><msub><mi>d</mi><mi>model</mi></msub></math>">Output<br>Embedding</div>
+            <div id="input-label" class="io-label" style="grid-area: in-lbl">Inputs</div>
+            <div id="output-label" class="io-label" style="grid-area: out-lbl">Outputs (shifted right)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Textual Inversion -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">Textual Inversion (default style)</h2>
+        <p class="subtitle is-6 has-text-centered has-text-grey">
+          Original Textual Inversion paper: <a href="https://textual-inversion.github.io/" target="_blank">Gal et al., <em>An Image is Worth One Word</em></a>
+        </p>
+        <div class="mlfig" id="textual-inversion-diagram" style="min-width: 500px;">
+          <!-- Diagram-specific styles -->
+          <style>
+            #textual-inversion-diagram .frozen  { --mlfig-bg: #dbeafe; --mlfig-border: 1.5px solid #60a5fa; }
+            #textual-inversion-diagram .amber   { --mlfig-bg: #fef3c7; --mlfig-border: 1.5px solid #f59e0b; }
+            #textual-inversion-diagram .gray    { --mlfig-bg: #f0ede8; --mlfig-border: none; }
+            #textual-inversion-diagram .freeze  { font-size: 1.6rem; margin-right: 0.4rem; color: #60a5fa; vertical-align: middle; }
+            #textual-inversion-diagram .label   { display: block; font-weight: 700; font-size: 0.95rem; }
+            #textual-inversion-diagram .output  { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                                   padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+          </style>
+          <script type="application/json">
+          {
+            "arrows": [
+              { "from": "prompt",    "to": "textenc",    "fromSide": "right", "toSide": "left" },
+              { "from": "textenc",   "to": "unet",       "fromSide": "right", "toSide": "top", "route": "l", "label": "<math><mi>c</mi></math>" },
+              { "from": "image",     "to": "add-noise",  "fromSide": "right", "toSide": "left" },
+              { "from": "add-noise", "to": "unet",       "fromSide": "right", "fromOffsetY": 10, "toSide": "left", "toOffsetY": 10, "label": "<math><msub><mi>x</mi><mi>t</mi></msub></math>" },
+              { "from": "noise",     "to": "add-noise",  "fromSide": "top",   "toSide": "bottom" },
+              { "from": "timestep",  "to": "add-noise",  "fromSide": "bottom", "fromOffsetX": -10, "toSide": "top", "toOffsetX": -10, "route": "s", "label": "<math><mi>t</mi></math>" },
+              { "from": "timestep",  "to": "unet",       "fromSide": "bottom", "fromOffsetX": 10, "toSide": "left", "toOffsetY": -10, "route": "s", "label": "<math><mi>t</mi></math>" },
+              { "from": "unet",      "to": "eps-predicted", "fromSide": "right", "toSide": "left", "label": "<math><mover><mi>ε</mi><mo>^</mo></mover></math>" },
+              { "from": "noise",     "to": "eps-predicted", "fromSide": "right", "toSide": "bottom", "route": "arc", "dashed": "6 3", "color": "#ef4444", "biDirectional": true, "label": "<math><msub><mi>L</mi><mn>2</mn></msub></math> Loss" }
+            ],
+            "boundingBoxes": []
+          }
+          </script>
+          <div class="mlfig-grid" style="
+            grid-template-columns: 1.2fr 2.5fr 1fr 1.5fr;
+            grid-template-areas:
+              'prompt  textenc   .        .'
+              '.       t        .        .'
+              'image   noise2   unet     eps'
+              '.       noise    .        .';
+            gap: 2.5rem 3rem;
+            max-width: 900px;
+            margin: 0 auto;
+          ">
+            <div id="prompt" class="output" style="grid-area:prompt">"A photo of <math><msub><mi>S</mi><mo>*</mo></msub></math>"</div>
+            <div id="textenc" class="mlfig-block frozen" style="grid-area:textenc; padding: 0.5rem; display: grid; grid-template-columns: auto 1fr; gap: 0.5rem; align-items: stretch;" data-tip="CLIP Text Encoder (Frozen)&#10;Embedding layer + transformer layers&#10;Produces conditioning vector c from text" data-tip-position="bottom">
+              <span class="label" style="grid-column: 1 / -1; text-align: center;">CLIP Text Encoder</span>
+              <div id="emb" class="mlfig-block" style="margin: 0; padding: 0.4rem; background: #eff6ff; border: 1px solid #93c5fd; display: flex; flex-direction: column; gap: 0.3rem;" data-tip="Embedding Layer&#10;Maps input tokens to dense vectors&#10;Contains frozen existing embeddings&#10;and the trainable S* embedding" data-tip-position="bottom">
+                <span class="label" style="text-align: center; font-size: 0.8rem;">Embedding Layer</span>
+                <div id="emb-frozen" class="mlfig-block frozen" style="border: 1px solid #60a5fa;" data-tip="Existing Token Embeddings (Frozen)&#10;All existing token embeddings&#10;vocab_size × d_embed" data-tip-position="bottom">
+                  <span class="freeze">&#10052;</span> Existing tokens
+                </div>
+                <div id="emb-star" class="mlfig-block amber" style="border: 1px solid #f59e0b;" data-tip="S* Embedding (Trainable)&#10;Newly added token embedding&#10;1 × d_embed&#10;Only this row is optimized" data-tip-position="bottom">
+                  <math><msub><mi>S</mi><mo>*</mo></msub></math>
+                </div>
+              </div>
+              <div id="clip" class="mlfig-block frozen" style="display: flex; align-items: center; justify-content: center; border: 1px solid #60a5fa;" data-tip="Transformer Layers (Frozen)&#10;Transforms token embeddings into&#10;conditioning vector c" data-tip-position="bottom">
+                <span class="freeze">&#10052;</span> Transformer Layers
+              </div>
+            </div>
+            <div id="image" class="output" style="grid-area:image">Image x</div>
+            <div id="add-noise" class="mlfig-block gray" style="grid-area:noise2; justify-self: center;" data-tip="Forward diffusion&#10;Adds noise at timestep t&#10;x_t = √ᾱ_t · x + √(1-ᾱ_t) · ε">Add Noise</div>
+            <div id="unet" class="mlfig-block frozen" style="grid-area:unet" data-tip="U-Net (Frozen)&#10;Predicts noise ε̂&#10;Conditioned on c and timestep t">
+              <span class="freeze">&#10052;</span> U-Net
+            </div>
+            <div id="eps-predicted" class="output" style="grid-area:eps; justify-self: center;"><math><mover><mi>ε</mi><mo>^</mo></mover></math> predicted</div>
+            <div id="noise" class="output" style="grid-area:noise; justify-self: center;">noise <math><mi>ε</mi></math></div>
+            <div id="timestep" class="output" style="grid-area:t; justify-self: center;">timestep t</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VETIM -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">VETIM (VETIM paper style)</h2>
+        <p class="subtitle is-6 has-text-centered has-text-grey">
+          Original VETIM architecture: <a href="https://ivrl.github.io/vetim/" target="_blank">Everaert et al., <em>VETIM: Expanding the Vocabulary of Text-to-Image Models only with Text</em></a>
+        </p>
+        <div class="mlfig" id="vetim-diagram" style="min-width: 500px;">
+          <!-- Diagram-specific styles -->
+          <style>
+            #vetim-diagram .label  { display: block; font-weight: 700; font-size: 0.95rem; }
+            /* Boxed labels (input/output style with thick black border) */
+            #vetim-diagram .ioblock { text-align: center; font-size: 1.1rem; color: #1e293b; background: #f8fafc;
+                                   border: 3px solid #1e293b; border-radius: 14px; padding: 1rem; }
+            /* Italic descriptive subtext */
+            #vetim-diagram .italic { font-size: 0.8rem; font-style: italic; opacity: 0.7; }
+            /* Lock icon (top-right) */
+            #vetim-diagram .lock   { color: #dc2626; position: absolute; font-size: 1.1rem; }
+            /* Red X overlay (matches the SVG style used by labelCrossed) */
+            #vetim-diagram .crossed-out { position: relative; }
+            #vetim-diagram .crossed-out::after {
+              content: ''; position: absolute; inset: 25%; z-index: 5; pointer-events: none;
+              background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'><line x1='0' y1='0' x2='100' y2='100' stroke='%23dc2626' stroke-width='4' vector-effect='non-scaling-stroke'/><line x1='100' y1='0' x2='0' y2='100' stroke='%23dc2626' stroke-width='4' vector-effect='non-scaling-stroke'/></svg>");
+              background-size: 100% 100%;
+            }
+            /* Text encoder container (grey background, no border) */
+            #vetim-diagram .encoder { padding: 0.5rem; display: grid; grid-template-columns: 1fr 1.8fr;
+                                    grid-template-rows: auto 6fr 1fr; gap: 0.5rem; align-items: stretch;
+                                    background: #f1f5f9; border: none; font-weight: normal;
+                                    --col-width: max(200%, 250px); }
+          </style>
+          <!-- "defaults" sets diagram-wide arrow/path styling; individual arrows can still override -->
+          <script type="application/json">
+          {
+            "defaults": { "strokeColor": "#374151", "strokeWidth": 3, "markerWidth": 12, "markerHeight": 7 },
+            "arrows": [
+              { "from": "prompt-sstar",  "to": "textenc-sstar", "fromSide": "right", "toSide": "left" },
+              { "from": "textenc-sstar", "to": "cond-sstar",    "fromSide": "right", "toSide": "left" },
+              { "from": "cond-sstar",    "to": "imggen",        "fromSide": "right", "toSide": "left" },
+              { "from": "imggen",        "to": "generated",     "fromSide": "right", "toSide": "left" },
+              { "from": "samples",       "to": "generated",     "fromSide": "right", "toSide": "bottom", "route": "arc", "color": "#7c3aed", "biDirectional": true, "label": "<math><msub><mi mathvariant='script'>L</mi><mtext>original</mtext></msub></math>", "labelFontSize": "24px", "labelOffsetX": 32, "labelOffsetY": 27, "labelId": "loss-label", "labelCrossed": true },
+              { "from": "prompt-desc",   "to": "textenc-desc",  "fromSide": "right", "toSide": "left" },
+              { "from": "textenc-desc",  "to": "cond-desc",     "fromSide": "right", "toSide": "left" },
+              { "from": "cond-sstar",    "to": "cond-desc",     "fromSide": "bottom", "toSide": "top", "color": "#7c3aed", "biDirectional": true, "label": "<math><msub><mi mathvariant='script'>L</mi><mtext>sim</mtext></msub></math>", "labelFontSize": "24px", "labelSide": "right", "labelId": "lsim-label" }
+            ],
+            "boundingBoxes": [],
+            "paths": [
+              {
+                "layer": "fg",
+                "points": [
+                  { "id": "lsim-label", "side": "center", "offsetY": -8 },
+                  { "id": "cond-sstar", "side": "bottom" },
+                  { "id": "clip", "side": "center"},
+                  { "id": "emb-star", "side": "right", "offsetX": 2 }
+                ],
+                "color": "#7c3aed",
+                "dashed": "6 6",
+                "strokeWidth": 2,
+                "arrow": true,
+                "tension": 0.2,
+                "markerWidth": 18,
+                "markerHeight": 10.5
+              }
+            ]
+          }
+          </script>
+          <div class="mlfig-grid" style="
+            grid-template-columns: 2.4fr 2.5fr 1.2fr 1.5fr 1.2fr;
+            grid-template-areas:
+              'prompt   textenc   cond   imggen    generated'
+              'prompt2  textenc2  cond2  samples   .     ';
+            gap: 2rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: center;
+          ">
+            <!-- Row 1: S* path -->
+            <div id="prompt-sstar" class="ioblock" style="grid-area:prompt; line-height: 1.1;" data-tip="Templated prompt <math><mi>T</mi><mo>[</mo><msub><mi>S</mi><mo>*</mo></msub><mo>]</mo></math>&#10;The template <math><mi>T</mi><mo>[</mo><mo>·</mo><mo>]</mo></math> is sampled at each step from a fixed list of sentences&#10;<math><msub><mi>S</mi><mo>*</mo></msub></math> is the new token being learned" data-tip-position="bottom">
+              <math><mi>T</mi><mo>[</mo><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub><mo>]</mo></math><br>
+              <span class="italic" style="line-height: 0.8;">A rendering of <math><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub></math> on a black background.</span>
+            </div>
+            <div id="textenc-sstar" class="mlfig-block encoder" style="grid-area:textenc;" data-tip="Text encoder <math><mi>E</mi></math> (frozen)&#10;CLIP ViT-L/14 for Stable Diffusion v1.5&#10;Pooled as in original CLIP training to get a single vector per prompt" data-tip-position="bottom">
+              <span class="label" style="grid-column: 1 / -1; text-align: center;">Text encoder <math><mi>E</mi></math></span>
+              <div style="grid-column: 1; grid-row: 2 / 4; display: flex; flex-direction: column;">
+                <div id="emb-frozen" class="mlfig-block" style="flex: 4; border: 2px solid #374151; background: #fce4ec; position: relative; min-height: 80px; min-width: 40px; border-radius: 0; margin: 0; --col-width: max(300%, 250px);" data-tip="Existing Token Embeddings (Frozen)&#10;All existing token embeddings&#10;vocab_size × d_embed" data-tip-position="bottom">
+                  <i class="fas fa-lock lock" style="top: 5px; right: -2px;"></i>
+                </div>
+                <div id="emb-star" class="mlfig-block" style="flex: 0 0 auto; border: 2px solid #374151; border-top: none; background: #e8f5e9; position: relative; border-radius: 0; margin: 0; padding: 0 0.5rem; font-size: 0.85rem; min-width: 40px; --col-width: max(300%, 250px);" data-tip="New vocabulary embedding <math><msub><mi>v</mi><mo>*</mo></msub></math> (trainable)&#10;768 parameters for CLIP ViT-L/14 / Stable Diffusion v1.5&#10;Initialised from the closest existing token (cosine-similarity on &quot;A photo of w&quot;)&#10;The only parameters VETIM updates" data-tip-position="bottom">
+                  <i class="fas fa-lock-open" style="color: #4caf50; position: absolute; bottom: 3px; right: -2px; font-size: 0.9rem;"></i> <math><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub></math>
+                </div>
+              </div>
+              <div id="clip" style="grid-column: 2; grid-row: 2 / 4; position: relative; overflow: visible; margin: -2px; min-width: 40px; --col-width: max(200%, 250px);" data-tip="Transformer Layers (Frozen)&#10;Transforms token embeddings into&#10;conditioning vector c" data-tip-position="bottom">
+                <svg style="position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px);" preserveAspectRatio="none" viewBox="-3 -3 106 106">
+                  <polygon points="0,0 100,8 100,92 0,100" fill="#fce4ec" stroke="#374151" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                </svg>
+                <i class="fas fa-lock lock" style="top: 12px; right: 3px; z-index: 1;"></i>
+              </div>
+            </div>
+            <div id="cond-sstar" class="ioblock" style="grid-area:cond; justify-self: center; --col-width: 300px;" data-tip="Text-encoder output <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><msub><mi>S</mi><mo>*</mo></msub><mo>]</mo><mo>)</mo></math>&#10;Pooled encoding of the templated prompt&#10;One operand of <math><msub><mi mathvariant=&quot;script&quot;>L</mi><mtext>sim</mtext></msub><mo>=</mo><mn>1</mn><mo>−</mo><mi>cos</mi><mo>(</mo><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><msub><mi>S</mi><mo>*</mo></msub><mo>]</mo><mo>)</mo><mo>,</mo><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><mi>t</mi><mo>]</mo><mo>)</mo><mo>)</mo></math>" data-tip-position="bottom">
+              <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub><mo>]</mo><mo>)</mo></math>
+            </div>
+            <!-- Image generation module with red X -->
+            <div id="imggen" class="mlfig-block crossed-out" style="grid-area:imggen; text-align: center; background: #f1f5f9; border: none; font-weight: normal; --col-width: max(200%, 250px);" data-tip="Image-generation module (e.g. Stable Diffusion U-Net + latent decoder)&#10;Not accessed at all during VETIM optimisation&#10;Why VETIM takes ~2 min vs. ~1 h for Textual Inversion" data-tip-position="bottom">
+              <i class="fas fa-lock lock" style="top: 5px; right: 5px; z-index: 6;"></i>
+              Image<br>generation<br>module<br><span class="italic">(e.g. diffusion model)</span>
+            </div>
+            <div id="generated" class="ioblock crossed-out" style="grid-area:generated;" data-tip="Image produced by the diffusion U-Net in Textual Inversion&#10;Not generated in VETIM — the image-generation part is never accessed" data-tip-position="bottom">Generated<br>image</div>
+            <!-- Sample images with red X -->
+            <div id="samples" class="ioblock crossed-out" style="grid-area:samples; justify-self: center;" data-tip="Reference / target images of the concept, supplied by the user in Textual Inversion&#10;Not needed by VETIM — a textual description alone is enough" data-tip-position="top">
+              Sample<br>images
+            </div>
+
+            <!-- Row 2: T[t] path -->
+            <div id="prompt-desc" class="ioblock" style="grid-area:prompt2; line-height: 1.1;" data-tip="Templated prompt <math><mi>T</mi><mo>[</mo><mi>t</mi><mo>]</mo></math>&#10;Same template list as <math><mi>T</mi><mo>[</mo><msub><mi>S</mi><mo>*</mo></msub><mo>]</mo></math>, with the user-supplied description <math><mi>t</mi></math> in place of <math><msub><mi>S</mi><mo>*</mo></msub></math>&#10;<math><mi>t</mi></math> is the input to VETIM (no images required)" data-tip-position="top">
+              <math><mi>T</mi><mo>[</mo><mi mathcolor="#0d9488">t</mi><mo>]</mo></math><br>
+              <span class="italic" style="line-height: 0.8;">A rendering of an object on a black background. The object is <span style="color: #0d9488;">a twisted, abstract sculpture made of delicate, interlocking tendrils of glass</span>.</span>
+            </div>
+            <div id="textenc-desc" class="mlfig-block encoder" style="grid-area:textenc2;" data-tip="Text encoder <math><mi>E</mi></math> (frozen)&#10;Same CLIP ViT-L/14 as above; no gradients flow here&#10;Produces the pooled reference encoding <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><mi>t</mi><mo>]</mo><mo>)</mo></math>" data-tip-position="top">
+              <span class="label" style="grid-column: 1 / -1; text-align: center;">Text encoder <math><mi>E</mi></math></span>
+              <div style="grid-column: 1; grid-row: 2 / 4; display: flex; flex-direction: column;">
+                <div class="mlfig-block" style="flex: 4; border: 2px solid #374151; background: #fce4ec; position: relative; min-height: 80px; min-width: 40px; border-radius: 0; margin: 0;">
+                  <i class="fas fa-lock lock" style="top: 5px; right: -2px;"></i>
+                </div>
+                <div style="flex: 0 0 auto; border: 2px solid #374151; border-top: none; position: relative; border-radius: 0; margin: 0; padding: 0 0.5rem; font-size: 0.85rem; min-width: 40px; visibility: hidden;">
+                  &nbsp;
+                </div>
+              </div>
+              <div style="grid-column: 2; grid-row: 2 / 4; position: relative; overflow: visible; margin: -2px; min-width: 40px;">
+                <svg style="position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px);" preserveAspectRatio="none" viewBox="-3 -3 106 106">
+                  <polygon points="0,0 100,8 100,92 0,100" fill="#fce4ec" stroke="#374151" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                </svg>
+                <i class="fas fa-lock lock" style="top: 12px; right: 3px; z-index: 1;"></i>
+              </div>
+            </div>
+            <div id="cond-desc" class="ioblock" style="grid-area:cond2; justify-self: center;" data-tip="Text-encoder output <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><mi>t</mi><mo>]</mo><mo>)</mo></math>&#10;Pooled reference encoding for the description <math><mi>t</mi></math>&#10;The target that <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><msub><mi>S</mi><mo>*</mo></msub><mo>]</mo><mo>)</mo></math> is pushed towards via <math><msub><mi mathvariant=&quot;script&quot;>L</mi><mtext>sim</mtext></msub></math>" data-tip-position="top">
+              <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><mi mathcolor="#0d9488">t</mi><mo>]</mo><mo>)</mo></math>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Textual Inversion (Alternative Style) -->
+    <section class="section">
+      <div class="container is-max-widescreen" style="overflow-x: auto; overflow-y: clip;">
+        <h2 class="title is-3 has-text-centered">Textual Inversion (VETIM paper style)</h2>
+        <p class="subtitle is-6 has-text-centered has-text-grey">
+          Original Textual Inversion paper: <a href="https://textual-inversion.github.io/" target="_blank">Gal et al., <em>An Image is Worth One Word</em></a><br>
+          Layout and colors after <a href="https://ivrl.github.io/vetim/" target="_blank">Everaert et al., <em>VETIM: Expanding the Vocabulary of Text-to-Image Models only with Text</em></a>
+        </p>
+        <div class="mlfig" id="textual-inversion-vetim-style-diagram" style="min-width: 500px;">
+          <!-- Diagram-specific styles -->
+          <style>
+            #textual-inversion-vetim-style-diagram .label  { display: block; font-weight: 700; font-size: 0.95rem; }
+            #textual-inversion-vetim-style-diagram .ioblock { text-align: center; font-size: 1.1rem; color: #1e293b; background: #f8fafc;
+                                   border: 3px solid #1e293b; border-radius: 14px; padding: 1rem; }
+            #textual-inversion-vetim-style-diagram .italic { font-size: 0.8rem; font-style: italic; opacity: 0.7; }
+            #textual-inversion-vetim-style-diagram .lock   { color: #dc2626; position: absolute; font-size: 1.1rem; }
+            #textual-inversion-vetim-style-diagram .encoder { padding: 0.5rem; display: grid; grid-template-columns: 1fr 1.8fr;
+                                    grid-template-rows: auto 6fr 1fr; gap: 0.5rem; align-items: stretch;
+                                    background: #f1f5f9; border: none; font-weight: normal;
+                                    --col-width: max(200%, 250px); }
+          </style>
+          <!-- "defaults" sets diagram-wide arrow/path styling; individual arrows can still override -->
+          <script type="application/json">
+          {
+            "defaults": { "strokeColor": "#374151", "strokeWidth": 3, "markerWidth": 12, "markerHeight": 7 },
+            "arrows": [
+              { "from": "prompt",    "to": "textenc",    "fromSide": "right", "toSide": "left" },
+              { "from": "textenc",   "to": "cond",       "fromSide": "right", "toSide": "left" },
+              { "from": "cond",      "to": "imggen",     "fromSide": "right", "toSide": "left" },
+              { "from": "imggen",    "to": "generated",  "fromSide": "right", "toSide": "left" },
+              { "from": "samples",   "to": "generated",  "fromSide": "right", "toSide": "bottom", "route": "arc", "color": "#7c3aed", "biDirectional": true, "label": "<math><msub><mi mathvariant='script'>L</mi><mtext>original</mtext></msub></math>", "labelFontSize": "24px", "labelOffsetX": 32, "labelOffsetY": 27, "labelId": "loss-label" }
+            ],
+            "boundingBoxes": [],
+            "paths": [
+              {
+                "layer": "fg",
+                "points": [
+                  { "id": "loss-label", "side": "center", "offsetY": -4 },
+                  { "id": "generated", "side": "bottom", "offsetY": -8 },
+                  { "id": "imggen", "side": "bottom", "offsetY": -8 },
+                  { "id": "cond", "side": "bottom", "offsetY": -8 },
+                  { "id": "clip", "side": "center"},
+                  { "id": "emb-star", "side": "right", "offsetX": 2 }
+                ],
+                "color": "#7c3aed",
+                "dashed": "6 6",
+                "strokeWidth": 2,
+                "arrow": true,
+                "tension": 0.2,
+                "markerWidth": 18,
+                "markerHeight": 10.5
+              }
+            ]
+          }
+          </script>
+          <div class="mlfig-grid" style="
+            grid-template-columns: 2.4fr 2.5fr 1.2fr 1.5fr 1.2fr;
+            grid-template-areas:
+              'prompt  textenc  cond  imggen  generated'
+              '.       .        .     samples .       ';
+            gap: 2rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            align-items: center;
+          ">
+            <div id="prompt" class="ioblock" style="grid-area:prompt; line-height: 1.1;">
+              <math><mi>T</mi><mo>[</mo><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub><mo>]</mo></math><br>
+              <span class="italic" style="line-height: 0.8;">An illustration of a <math><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub></math></span>
+            </div>
+            <div id="textenc" class="mlfig-block encoder" style="grid-area:textenc;" data-tip="CLIP Text Encoder (Frozen)&#10;Embedding layer + transformer layers&#10;Produces conditioning vector c from text" data-tip-position="bottom">
+              <span class="label" style="grid-column: 1 / -1; text-align: center;">Text encoder <math><mi>E</mi></math></span>
+              <div style="grid-column: 1; grid-row: 2 / 4; display: flex; flex-direction: column;">
+                <div id="emb-frozen" class="mlfig-block" style="flex: 4; border: 2px solid #374151; background: #fce4ec; position: relative; min-height: 80px; min-width: 40px; border-radius: 0; margin: 0; --col-width: max(300%, 250px);" data-tip="Existing Token Embeddings (Frozen)&#10;All existing token embeddings&#10;vocab_size × d_embed" data-tip-position="bottom">
+                  <i class="fas fa-lock lock" style="top: 5px; right: -2px;"></i>
+                </div>
+                <div id="emb-star" class="mlfig-block" style="flex: 0 0 auto; border: 2px solid #374151; border-top: none; background: #e8f5e9; position: relative; border-radius: 0; margin: 0; padding: 0 0.5rem; font-size: 0.85rem; min-width: 40px; --col-width: max(300%, 250px);" data-tip="S* Embedding (Trainable)&#10;Newly added token embedding&#10;1 × d_embed&#10;Only this row is optimized" data-tip-position="bottom">
+                  <i class="fas fa-lock-open" style="color: #4caf50; position: absolute; bottom: 3px; right: -2px; font-size: 0.9rem;"></i> <math><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub></math>
+                </div>
+              </div>
+              <div id="clip" style="grid-column: 2; grid-row: 2 / 4; position: relative; overflow: visible; margin: -2px; min-width: 40px; --col-width: max(200%, 250px);" data-tip="Transformer Layers (Frozen)&#10;Transforms token embeddings into&#10;conditioning vector c" data-tip-position="bottom">
+                <svg style="position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px);" preserveAspectRatio="none" viewBox="-3 -3 106 106">
+                  <polygon points="0,0 100,8 100,92 0,100" fill="#fce4ec" stroke="#374151" stroke-width="2" vector-effect="non-scaling-stroke"/>
+                </svg>
+                <i class="fas fa-lock lock" style="top: 12px; right: 3px; z-index: 1;"></i>
+              </div>
+            </div>
+            <div id="cond" class="ioblock" style="grid-area:cond; justify-self: center;">
+              <math><mi>E</mi><mo>(</mo><mi>T</mi><mo>[</mo><msub mathcolor="#0d9488"><mi>S</mi><mo>*</mo></msub><mo>]</mo><mo>)</mo></math>
+            </div>
+            <div id="imggen" class="mlfig-block" style="grid-area:imggen; text-align: center; background: #f1f5f9; border: none; font-weight: normal; position: relative; --col-width: max(200%, 250px);" data-tip="Image Generation Module (Frozen)&#10;e.g. diffusion model&#10;Generates images conditioned on text embedding" data-tip-position="bottom">
+              <i class="fas fa-lock lock" style="top: 5px; right: 5px;"></i>
+              Image<br>generation<br>module<br><span class="italic">(e.g. diffusion model)</span>
+            </div>
+            <div id="generated" class="ioblock" style="grid-area:generated;">Generated<br>image</div>
+            <div id="samples" class="ioblock" style="grid-area:samples; justify-self: center;">Sample<br>images</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BibTeX -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@misc{everaert2026mlfigtemplate,
+  author       = {{EPFL-IVRL} and Everaert, Martin Nicolas},
+  title        = {{ML} {F}igure {T}emplate: {I}nteractive architecture diagrams for {ML} project pages},
+  year         = {2026},
+  howpublished = {\url{https://github.com/IVRL/ml-figure-template}}
+}</code></pre>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>

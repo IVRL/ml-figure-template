@@ -1,0 +1,341 @@
+/*! ml-figure-template v0.0.1 — https://github.com/IVRL/ml-figure-template */
+/* ── Architecture Diagram ── */
+.mlfig {
+  position: relative;
+  margin: 2rem auto 0;
+  padding: 1rem 1rem 1.5rem;
+}
+
+/* SVG overlay for arrows */
+.mlfig-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mlfig-svg-label {
+  font-size: 11px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  fill: #94a3b8;
+  opacity: 0.5;
+}
+
+.mlfig-svg-label-fo {
+  overflow: visible;
+  pointer-events: none;
+}
+
+.mlfig-svg-label-html {
+  font-size: 12px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: #64748b;
+  opacity: 0.7;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+
+/* Grid layout for blocks */
+.mlfig-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+}
+
+/* Stretch spanning blocks with padding so they don't touch */
+.mlfig-span {
+  justify-self: stretch;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+
+/* Layer labels inside blocks */
+.mlfig-layer-label {
+  position: absolute;
+  bottom: 4px;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  font-weight: 600;
+  color: #3b82f6;
+  pointer-events: none;
+}
+
+/* Blocks — all colors read from CSS variables so each diagram can override */
+.mlfig-block {
+  position: relative;
+  padding: 0.7rem 1.1rem;
+  border-radius: var(--mlfig-radius, 8px);
+  font-size: var(--mlfig-font-size, 0.95rem);
+  font-weight: var(--mlfig-font-weight, 600);
+  text-align: center;
+  cursor: default;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: var(--mlfig-bg, #fef3c7);
+  color: var(--mlfig-color, var(--text-primary, #1e293b));
+  border: var(--mlfig-border, 1.5px solid #f59e0b);
+  box-shadow: var(--mlfig-shadow, none);
+}
+
+.mlfig-block:hover {
+  box-shadow: var(--shadow-md, 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1));
+  transform: translateY(-1px);
+}
+
+/* Tooltips */
+[data-tip] {
+  cursor: pointer;
+}
+
+/* Elevate the entire block when its tooltip is showing,
+   so the tooltip renders in front of all sibling blocks */
+[data-tip] {
+  z-index: 1;
+}
+[data-tip]:hover,
+[data-tip].active {
+  z-index: 50;
+}
+
+
+/* JS-rendered tooltip element — grid-area prevents breaking parent grid layouts */
+.mlfig-tooltip {
+  position: absolute;
+  grid-area: 1 / 1;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: var(--col-width, 100%);
+  min-width: 180px;
+  background: var(--text-primary, #1e293b);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.45;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  white-space: pre-line;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s, visibility 0.15s;
+  z-index: 100;
+  pointer-events: none;
+  box-shadow: var(--shadow-lg, 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1));
+}
+
+.mlfig-tooltip-arrow {
+  content: '';
+  position: absolute;
+  grid-area: 1 / 1;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid var(--text-primary, #1e293b);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s, visibility 0.15s;
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* Tooltip show/hide and positioning is handled by JS (showTooltip/hideTooltip) */
+
+/* Credit watermark */
+.mlfig-credit {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  display: flex;
+  align-items: flex-end;
+  gap: 0;
+  text-decoration: none;
+  pointer-events: auto;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 2px;
+  transition: background 0.2s, gap 0.2s, padding 0.2s;
+}
+
+.mlfig-credit:hover {
+  background: var(--background-accent, #f1f5f9);
+  gap: 4px;
+  padding: 2px 8px 2px 4px;
+}
+
+.mlfig-credit-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-color, #e2e8f0);
+  background: none;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: Georgia, serif;
+  color: var(--text-light, #94a3b8);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.mlfig-credit:hover .mlfig-credit-icon {
+  border-color: var(--text-light, #94a3b8);
+  color: var(--text-secondary, #64748b);
+}
+
+.mlfig-credit-text {
+  font-size: 9px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: var(--text-light, #94a3b8);
+  white-space: nowrap;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.2s, opacity 0.2s;
+}
+
+.mlfig-credit:hover .mlfig-credit-text {
+  max-width: 350px;
+  opacity: 1;
+}
+
+.mlfig-credit-text a {
+  color: var(--text-secondary, #64748b);
+  text-decoration: underline;
+  pointer-events: auto;
+}
+
+/* Save-as-SVG button (standalone badge in the bottom-right corner) */
+.mlfig-save {
+  position: absolute;
+  bottom: 4px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  pointer-events: auto;
+  z-index: 1;
+  border-radius: 10px;
+  padding: 2px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s, gap 0.2s, padding 0.2s;
+}
+
+.mlfig-save:hover {
+  background: var(--background-accent, #f1f5f9);
+  gap: 4px;
+  padding: 2px 8px 2px 4px;
+}
+
+.mlfig-save-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border-color, #e2e8f0);
+  background: none;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light, #94a3b8);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.mlfig-save-icon svg {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
+.mlfig-save:hover .mlfig-save-icon {
+  border-color: var(--text-light, #94a3b8);
+  color: var(--text-secondary, #64748b);
+}
+
+.mlfig-save-text {
+  font-size: 9px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: var(--text-light, #94a3b8);
+  white-space: nowrap;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.2s, opacity 0.2s;
+}
+
+.mlfig-save:hover .mlfig-save-text {
+  max-width: 120px;
+  opacity: 1;
+  color: var(--text-secondary, #64748b);
+}
+
+/* When the credit badge is hovered it expands rightward and would overlap
+   the save button — fade it out so the two don't collide. */
+.mlfig-credit:hover ~ .mlfig-save {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+/* Error badge (shown when JSON config fails to parse) */
+.mlfig-error {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  pointer-events: auto;
+  z-index: 2;
+  border-radius: 10px;
+  padding: 2px;
+  transition: background 0.2s, gap 0.2s, padding 0.2s;
+}
+
+.mlfig-error:hover {
+  background: #fef2f2;
+  gap: 4px;
+  padding: 2px 8px 2px 4px;
+}
+
+.mlfig-error-icon {
+  width: 32px;
+  height: 29px;
+  flex-shrink: 0;
+  font-size: 0;
+  color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 18'><path d='M10 1.5 L18.5 16.5 L1.5 16.5 Z' fill='none' stroke='%23fca5a5' stroke-width='1.5' stroke-linejoin='round'/><path d='M10 6.5 L10 11' stroke='%23ef4444' stroke-width='1.8' stroke-linecap='round'/><circle cx='10' cy='13.5' r='0.9' fill='%23ef4444'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.2s;
+}
+
+.mlfig-error:hover .mlfig-error-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 18'><path d='M10 1.5 L18.5 16.5 L1.5 16.5 Z' fill='%23fff' stroke='%23ef4444' stroke-width='1.5' stroke-linejoin='round'/><path d='M10 6.5 L10 11' stroke='%23b91c1c' stroke-width='1.8' stroke-linecap='round'/><circle cx='10' cy='13.5' r='0.9' fill='%23b91c1c'/></svg>");
+}
+
+.mlfig-error-text {
+  font-size: 9px;
+  font-family: 'SF Mono', 'Monaco', monospace;
+  color: #b91c1c;
+  white-space: nowrap;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.2s, opacity 0.2s;
+}
+
+.mlfig-error:hover .mlfig-error-text {
+  max-width: 400px;
+  opacity: 1;
+}

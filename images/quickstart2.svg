@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Diagram made with ml-figure-template
+  https://github.com/IVRL/ml-figure-template
+  Free to use with attribution — see
+  https://github.com/IVRL/ml-figure-template/blob/main/LICENSE
+  Template © 2026 EPFL-IVRL and Martin Everaert
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="83" viewBox="0 0 1008 83">
+  <foreignObject x="0" y="0" width="1008" height="83">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="mlfig" id="my-diagram" style="font-family: sans-serif; height: 42.8906px; margin: 0px; padding: 16px 16px 24px; position: relative; width: 964px; -webkit-locale: &quot;en&quot;; --mlfig-w: 996px; --mlfig-z: 0.6526104417670683; left: 0px; top: 0px; overflow: visible;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mlfig-svg" width="996" height="82.890625" style="bottom:0px;display:block;height:82.8906px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:0;">
+          <defs>
+            <marker id="ah-my-diagram-94a3b88x10" markerWidth="10" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="strokeWidth">
+              <polygon points="0 0, 10 4, 0 8" fill="#94a3b8"/>
+            </marker>
+          </defs>
+          <g class="mlfig-svg-arrow">
+            <line x1="482" y1="37.4453125" x2="498" y2="37.4453125" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-my-diagram-94a3b88x10)"/>
+          </g>
+        </svg>
+    
+    
+        <div class="mlfig-grid" style="align-items:center;column-gap:32px;display:grid;grid-template-columns:466px 466px;grid-template-rows:42.8906px;height:42.8906px;justify-items:stretch;position:relative;row-gap:32px;width:964px;z-index:1;display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+      
+          <div class="mlfig-block" id="encoder" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;color:rgb(30, 41, 59);cursor:default;font-size:15.2px;font-weight:600;height:17.5px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:427.812px;">Encoder
+          </div>
+      
+          <div class="mlfig-block" id="decoder" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;color:rgb(30, 41, 59);cursor:default;font-size:15.2px;font-weight:600;height:17.5px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:427.812px;">Decoder
+          </div>
+    
+        </div>
+  
+        <div id="my-diagram-labels" style="bottom:0px;height:82.8906px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:2;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="my-diagram-fg-svg" class="mlfig-svg" width="996" height="82.890625" style="bottom:0px;display:block;height:82.8906px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:10;z-index: 10;">
+          <defs/>
+        </svg>
+        <div id="my-diagram-scroll-spacer" style="height:1px;margin-top:-1px;pointer-events:none;height: 1px; pointer-events: none; margin-top: -1px; width: 0px;">
+        </div>
+        <div class="mlfig-tooltip-arrow mlfig-tooltip-arrow-shared" style="border-left-color:rgba(0, 0, 0, 0);border-left-style:solid;border-left-width:6px;border-right-color:rgba(0, 0, 0, 0);border-right-style:solid;border-right-width:6px;border-top-color:rgb(30, 41, 59);border-top-style:solid;border-top-width:6px;bottom:84.8906px;content:&quot;&quot;;grid-column-start:1;grid-row-start:1;left:498px;opacity:0;pointer-events:none;position:absolute;right:486px;top:-8px;transform:matrix(1, 0, 0, 1, -6, 0);visibility:hidden;z-index:200;position: absolute; z-index: 200;">
+        </div>
+      </div>
+    </div>
+  </foreignObject><text x="4" y="69" font-family="'SF Mono', Monaco, monospace" font-size="10" fill="#f1f5f9">© 2026 IVRL/ml-figure-template</text>
+</svg>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Diagram made with ml-figure-template
+  https://github.com/IVRL/ml-figure-template
+  Free to use with attribution — see
+  https://github.com/IVRL/ml-figure-template/blob/main/LICENSE
+  Template © 2026 EPFL-IVRL and Martin Everaert
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="996" height="303" viewBox="0 0 996 303">
+  <foreignObject x="0" y="0" width="996" height="303">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="mlfig" id="my-diagram" style="font-family: sans-serif; height: 214.672px; margin: 0px; padding: 4rem 16px 24px; position: relative; width: 964px; -webkit-locale: &quot;en&quot;; --mlfig-w: 996px; --mlfig-z: 0.6526104417670683; left: 0px; top: 0px; overflow: visible;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mlfig-svg" width="996" height="302.671875" style="bottom:0px;display:block;height:302.672px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:0;">
+          <defs>
+            <marker id="ah-my-diagram-3741518x10" markerWidth="10" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="strokeWidth">
+              <polygon points="0 0, 10 4, 0 8" fill="#374151"/>
+            </marker>
+          </defs>
+          <rect x="344.6640625" y="58" width="306.6640625" height="226.671875" rx="10" ry="10" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 4" opacity="0.6" style="height:226.672px;opacity:0.6;rx:10px;ry:10px;width:306.664px;x:344.664px;y:58px;"/>
+          <g class="mlfig-svg-arrow">
+            <line x1="306.6640625" y1="85.4453125" x2="334.6640625" y2="85.4453125" stroke="#374151" stroke-width="2" marker-end="url(#ah-my-diagram-3741518x10)"/>
+          </g>
+          <g class="mlfig-svg-arrow">
+            <line x1="497.99609375" y1="106.890625" x2="497.99609375" y2="138.890625" stroke="#374151" stroke-width="2" marker-end="url(#ah-my-diagram-3741518x10)"/>
+          </g>
+          <g class="mlfig-svg-arrow">
+            <line x1="497.99609375" y1="187.78125" x2="497.99609375" y2="219.78125" stroke="#374151" stroke-width="2" marker-end="url(#ah-my-diagram-3741518x10)"/>
+          </g>
+          <g class="mlfig-svg-arrow">
+            <line x1="645.328125" y1="257.2265625" x2="673.328125" y2="257.2265625" stroke="#374151" stroke-width="2" marker-end="url(#ah-my-diagram-3741518x10)"/>
+          </g>
+        </svg>
+    
+    
+        <style>
+      #my-diagram .output { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                            padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+      #my-diagram .small  { padding: 0.45rem 0.8rem; font-size: 0.85rem; margin: 0 0.25rem; }
+    
+        </style>
+    
+        <div class="mlfig-grid" style="align-items:center;column-gap:40px;display:grid;grid-template-areas:&quot;input encoder .&quot; &quot;. bottleneck .&quot; &quot;. decoder output&quot;;grid-template-columns:294.664px 294.664px 294.664px;grid-template-rows:42.8906px 32.8906px 42.8906px;height:214.672px;justify-items:stretch;position:relative;row-gap:48px;width:964px;z-index:1;&#10;      display: grid;&#10;      grid-template-columns: 1fr 1fr 1fr;&#10;      grid-template-areas:&#10;        'input   encoder    .'&#10;        '.       bottleneck .'&#10;        '.       decoder    output';&#10;      gap: 3rem 2.5rem;&#10;    ">
+      
+          <div class="output small" id="input" style="background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:dashed;border-bottom-width:1px;border-left-color:rgb(226, 232, 240);border-left-style:dashed;border-left-width:1px;border-right-color:rgb(226, 232, 240);border-right-style:dashed;border-right-width:1px;border-top-color:rgb(226, 232, 240);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:dashed;border-top-width:1px;color:rgb(100, 116, 139);font-size:13.6px;font-weight:600;grid-column-end:input;grid-column-start:input;grid-row-end:input;grid-row-start:input;height:15.5px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;text-align:center;width:259.07px;grid-area: input;">Your awesome input
+          </div>
+      
+          <div class="mlfig-block" id="encoder" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;color:rgb(30, 41, 59);cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:encoder;grid-column-start:encoder;grid-row-end:encoder;grid-row-start:encoder;height:17.5px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:256.477px;z-index:1;grid-area: encoder;" data-tip="Some details about the encoder">Encoder
+          </div>
+      
+          <div class="mlfig-block small" id="bottleneck" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;color:rgb(30, 41, 59);cursor:pointer;font-size:13.6px;font-weight:600;grid-column-end:bottleneck;grid-column-start:bottleneck;grid-row-end:bottleneck;grid-row-start:bottleneck;height:15.5px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;position:relative;text-align:center;width:258.07px;z-index:1;grid-area: bottleneck;" data-tip="Some details about the bottleneck">Bottleneck
+          </div>
+      
+          <div class="mlfig-block" id="decoder" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;color:rgb(30, 41, 59);cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:decoder;grid-column-start:decoder;grid-row-end:decoder;grid-row-start:decoder;height:17.5px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:256.477px;z-index:1;grid-area: decoder;" data-tip="Some details about the decoder">Decoder
+          </div>
+      
+          <div class="output small" id="output" style="background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:dashed;border-bottom-width:1px;border-left-color:rgb(226, 232, 240);border-left-style:dashed;border-left-width:1px;border-right-color:rgb(226, 232, 240);border-right-style:dashed;border-right-width:1px;border-top-color:rgb(226, 232, 240);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:dashed;border-top-width:1px;color:rgb(100, 116, 139);font-size:13.6px;font-weight:600;grid-column-end:output;grid-column-start:output;grid-row-end:output;grid-row-start:output;height:15.5px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;text-align:center;width:259.07px;grid-area: output;">Your awesome output
+          </div>
+    
+        </div>
+  
+        <div id="my-diagram-labels" style="bottom:0px;height:302.672px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:2;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+          <div class="mlfig-svg-label-html" style="bottom:2px;color:rgb(245, 158, 11);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;left:497.996px;line-height:12px;position:absolute;right:368.383px;text-align:center;text-wrap-mode:nowrap;top:288.672px;transform:matrix(1, 0, 0, 1, -64.8125, 0);width:129.625px;pointer-events: auto; text-align: center; color: rgb(245, 158, 11); opacity: 1; font-size: 12px; position: absolute; top: 288.672px; left: 497.996px; transform: translateX(-50%);">Your awesome model
+          </div>
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:164.727px;color:rgb(100, 116, 139);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;justify-content:center;left:328.664px;line-height:12px;opacity:0.7;position:absolute;right:602.523px;text-wrap-mode:nowrap;top:125.945px;transform:matrix(0, 1, -1, 0, -32.4062, -6);width:64.8125px;position: absolute; left: 328.664px; top: 125.945px; transform: translate(-50%, -50%) rotate(90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto;">3×512×512
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:169.781px;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;left:446.789px;line-height:12px;opacity:0.7;position:absolute;right:506.004px;text-align:right;text-wrap-mode:nowrap;top:120.891px;width:43.2109px;pointer-events: auto; text-align: right; position: absolute; top: 120.891px; right: 506.004px;">1×1024
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:88.8906px;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;left:505.996px;line-height:12px;opacity:0.7;position:absolute;right:446.797px;text-align:left;text-wrap-mode:nowrap;top:201.781px;width:43.2109px;pointer-events: auto; text-align: left; position: absolute; top: 201.781px; left: 505.996px;">1×1024
+          </div>
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:73.9453px;color:rgb(100, 116, 139);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;justify-content:center;left:667.328px;line-height:12px;opacity:0.7;position:absolute;right:263.859px;text-wrap-mode:nowrap;top:216.727px;transform:matrix(0, -1, 1, 0, -32.4062, -6);width:64.8125px;position: absolute; left: 667.328px; top: 216.727px; transform: translate(-50%, -50%) rotate(-90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto;">1×512×512
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="my-diagram-fg-svg" class="mlfig-svg" width="996" height="302.671875" style="bottom:0px;display:block;height:302.672px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:996px;z-index:10;z-index: 10;">
+          <defs>
+            <marker id="my-diagram-fg-svg-m-7c3aed8x10" markerWidth="10" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="strokeWidth">
+              <polygon points="0 0, 10 4, 0 8" fill="#7c3aed"/>
+            </marker>
+          </defs>
+          <path d="M 178.33203125,69.5 C 278.73125,63.35 377.39726562500005,-14.817968749999999 512.99609375,49 C 648.594921875,112.81796875 571.428515625,213.75859375 630.328125,282.2265625 C 645.05302734375,299.3435546875 671.4670253792731,279.6228346278941 677.392025379273,279.2478346278941" fill="none" stroke="#7c3aed" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round" marker-end="url(#my-diagram-fg-svg-m-7c3aed8x10)"/>
+        </svg>
+        <div id="my-diagram-scroll-spacer" style="height:1px;margin-top:-1px;pointer-events:none;width:652px;height: 1px; pointer-events: none; margin-top: -1px; width: 652px;">
+        </div>
+        <div class="mlfig-tooltip-arrow mlfig-tooltip-arrow-shared" style="border-left-color:rgba(0, 0, 0, 0);border-left-style:solid;border-left-width:6px;border-right-color:rgba(0, 0, 0, 0);border-right-style:solid;border-right-width:6px;bottom:240.672px;content:&quot;&quot;;grid-column-start:1;grid-row-start:1;left:497.996px;opacity:0;pointer-events:none;position:absolute;right:486.008px;top:62px;transform:matrix(1, 0, 0, 1, -6, 0);visibility:hidden;z-index:200;position: absolute; z-index: 200; left: 497.996px; transform: translateX(-50%); opacity: 0; visibility: hidden; top: auto; bottom: 240.672px; border-top: 6px solid var(--text-primary); border-bottom: none;">
+        </div>
+      </div>
+    </div>
+  </foreignObject><text x="4" y="289" font-family="'SF Mono', Monaco, monospace" font-size="10" fill="#f1f5f9">© 2026 IVRL/ml-figure-template</text>
+</svg>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Diagram made with ml-figure-template
+  https://github.com/IVRL/ml-figure-template
+  Free to use with attribution — see
+  https://github.com/IVRL/ml-figure-template/blob/main/LICENSE
+  Template © 2026 EPFL-IVRL and Martin Everaert
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="326" viewBox="0 0 960 326">
+  <foreignObject x="0" y="0" width="960" height="326">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="mlfig" id="textual-inversion-vetim-style-diagram" style="box-sizing: border-box; color: rgb(30, 41, 59); font-family: Inter, &quot;Segoe UI&quot;, -apple-system, &quot;system-ui&quot;, sans-serif; height: 325.984px; line-height: 25.6px; margin: 0px; padding: 16px 16px 24px; position: relative; text-rendering: optimizelegibility; text-size-adjust: 100%; width: 960px; -webkit-font-smoothing: antialiased; -webkit-locale: &quot;en&quot;; --text-secondary: #64748b; --primary-color: #2563eb; --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); --text-light: #94a3b8; --border-color: #e2e8f0; --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05); --background-accent: #f1f5f9; --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); --background-primary: #ffffff; --primary-hover: #1d4ed8; --ViewSDK-mobile-viewport-height: 1vh; --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); --border-radius: 12px; --text-primary: #1e293b; --background-secondary: #f8fafc; --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); --border-radius-lg: 16px; min-width: 500px; --mlfig-w: 960px; --mlfig-z: 0.6770833333333334; left: 0px; top: 0px; overflow: visible;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mlfig-svg" width="960" height="325.984375" style="bottom:0px;box-sizing:border-box;display:block;height:325.984px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:960px;z-index:0;">
+          <defs style="box-sizing:border-box;">
+            <marker id="ah-textual-inversion-vetim-style-diagram-37415112x7" markerWidth="7" markerHeight="12" refX="2" refY="6" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+              <polygon points="0 0, 7 6, 0 12" fill="#374151" style="box-sizing:border-box;"/>
+            </marker>
+            <marker id="ah-textual-inversion-vetim-style-diagram-7c3aed12x7" markerWidth="7" markerHeight="12" refX="2" refY="6" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+              <polygon points="0 0, 7 6, 0 12" fill="#7c3aed" style="box-sizing:border-box;"/>
+            </marker>
+            <marker id="ah-textual-inversion-vetim-style-diagram-7c3aedrev12x7" markerWidth="7" markerHeight="12" refX="5" refY="6" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+              <polygon points="7 0, 0 6, 7 12" fill="#7c3aed" style="box-sizing:border-box;"/>
+            </marker>
+          </defs>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="224.9296875" y1="95.83203125" x2="241.9296876117587" y2="95.83410644532614" stroke="#374151" stroke-width="3" marker-end="url(#ah-textual-inversion-vetim-style-diagram-37415112x7)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="474.578125" y1="95.8359375" x2="491.578125" y2="95.8359375" stroke="#374151" stroke-width="3" marker-end="url(#ah-textual-inversion-vetim-style-diagram-37415112x7)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="624.2265625" y1="95.8359375" x2="641.2265626117587" y2="95.83386230467386" stroke="#374151" stroke-width="3" marker-end="url(#ah-textual-inversion-vetim-style-diagram-37415112x7)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="786.8046875" y1="95.83203125" x2="803.8046876117587" y2="95.83410644532614" stroke="#374151" stroke-width="3" marker-end="url(#ah-textual-inversion-vetim-style-diagram-37415112x7)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 786.4609375,254.828125 Q 881.3984375,254.828125 881.3984375,157.9921875" fill="none" stroke="#7c3aed" stroke-width="3" marker-end="url(#ah-textual-inversion-vetim-style-diagram-7c3aed12x7)" marker-start="url(#ah-textual-inversion-vetim-style-diagram-7c3aedrev12x7)" style="box-sizing:border-box;"/>
+          </g>
+        </svg>
+          <!-- Diagram-specific styles -->
+          
+        <style style="box-sizing:border-box;">
+            #textual-inversion-vetim-style-diagram .label  { display: block; font-weight: 700; font-size: 0.95rem; }
+            #textual-inversion-vetim-style-diagram .ioblock { text-align: center; font-size: 1.1rem; color: #1e293b; background: #f8fafc;
+                                   border: 3px solid #1e293b; border-radius: 14px; padding: 1rem; }
+            #textual-inversion-vetim-style-diagram .italic { font-size: 0.8rem; font-style: italic; opacity: 0.7; }
+            #textual-inversion-vetim-style-diagram .lock   { color: #dc2626; position: absolute; font-size: 1.1rem; }
+            #textual-inversion-vetim-style-diagram .encoder { padding: 0.5rem; display: grid; grid-template-columns: 1fr 1.8fr;
+                                    grid-template-rows: auto 6fr 1fr; gap: 0.5rem; align-items: stretch;
+                                    background: #f1f5f9; border: none; font-weight: normal;
+                                    --col-width: max(200%, 250px); }
+          
+        </style>
+          <!-- "defaults" sets diagram-wide arrow/path styling; individual arrows can still override -->
+          
+          
+        <div class="mlfig-grid" style="align-items:center;box-sizing:border-box;column-gap:32px;display:grid;grid-template-areas:&quot;prompt textenc cond imggen generated&quot; &quot;. . . samples .&quot;;grid-template-columns:208.93px 217.648px 117.648px 130.578px 125.188px;grid-template-rows:159.672px 94.3125px;height:285.984px;justify-items:stretch;max-width:1000px;position:relative;row-gap:32px;width:928px;z-index:1;&#10;            grid-template-columns: 2.4fr 2.5fr 1.2fr 1.5fr 1.2fr;&#10;            grid-template-areas:&#10;              'prompt  textenc  cond  imggen  generated'&#10;              '.       .        .     samples .       ';&#10;            gap: 2rem 2rem;&#10;            max-width: 1000px;&#10;            margin: 0 auto;&#10;            align-items: center;&#10;          ">
+            
+          <div id="prompt" class="ioblock" style="background-color:rgb(248, 250, 252);border-bottom-left-radius:14px;border-bottom-right-radius:14px;border-bottom-style:solid;border-bottom-width:3px;border-left-style:solid;border-left-width:3px;border-right-style:solid;border-right-width:3px;border-top-left-radius:14px;border-top-right-radius:14px;border-top-style:solid;border-top-width:3px;box-sizing:border-box;font-size:17.6px;grid-column-end:prompt;grid-column-start:prompt;grid-row-end:prompt;grid-row-start:prompt;height:77.0234px;line-height:19.36px;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:16px;text-align:center;width:208.93px;grid-area:prompt; line-height: 1.1;">
+              <math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:16.3984px;width:46.5547px;"><mi style="box-sizing:border-box;height:11.5625px;width:10.7422px;">T</mi><mo style="box-sizing:border-box;height:16.3984px;width:10.3281px;">[</mo><msub mathcolor="#0d9488" style="box-sizing:border-box;color:rgb(13, 148, 136);height:12.0312px;width:15.1562px;"><mi style="box-sizing:border-box;height:12.0312px;width:9.39844px;">S</mi><mo style="box-sizing:border-box;font-size:12.32px;height:4.60938px;math-depth:1;math-shift:compact;width:5.05469px;">*</mo></msub><mo style="box-sizing:border-box;height:16.3984px;width:10.3281px;">]</mo></math>
+            <br style="box-sizing:border-box;" />
+              <span class="italic" style="box-sizing:border-box;font-size:12.8px;font-style:italic;line-height:10.24px;opacity:0.7;line-height: 0.8;">An illustration of a <math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:8.75px;width:11.0234px;"><msub mathcolor="#0d9488" style="box-sizing:border-box;color:rgb(13, 148, 136);height:8.75px;width:11.0234px;"><mi style="box-sizing:border-box;height:8.75px;width:6.83594px;">S</mi><mo style="box-sizing:border-box;font-size:8.96px;height:3.35156px;math-depth:1;math-shift:compact;width:3.67969px;">*</mo></msub></math></span>
+            
+          </div>
+            
+          <div id="textenc" class="mlfig-block encoder" style="align-items:stretch;background-color:rgb(241, 245, 249);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;box-sizing:border-box;column-gap:8px;cursor:pointer;display:grid;font-size:15.2px;grid-column-end:textenc;grid-column-start:textenc;grid-row-end:textenc;grid-row-start:textenc;grid-template-columns:69.1562px 124.492px;grid-template-rows:31.9141px 82.0781px 13.6797px;height:159.672px;line-height:24.32px;padding-bottom:8px;padding-left:8px;padding-right:8px;padding-top:8px;position:relative;row-gap:8px;text-align:center;width:217.648px;z-index:1;--col-width:max(200%, 250px);grid-area:textenc;" data-tip="CLIP Text Encoder (Frozen)&#10;Embedding layer + transformer layers&#10;Produces conditioning vector c from text" data-tip-position="bottom">
+              <span class="label" style="box-sizing:border-box;color:rgb(54, 54, 54);display:block;font-weight:700;grid-column-end:-1;grid-column-start:1;height:24.3203px;margin-bottom:7.6px;width:201.648px;grid-column: 1 / -1; text-align: center;">Text encoder <math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:9.98438px;width:9.33594px;"><mi style="box-sizing:border-box;height:9.98438px;width:9.33594px;">E</mi></math></span>
+              
+            <div style="box-sizing:border-box;display:flex;flex-direction:column;grid-column-start:1;grid-row-end:4;grid-row-start:2;height:103.758px;width:69.1562px;grid-column: 1; grid-row: 2 / 4; display: flex; flex-direction: column;">
+                
+              <div id="emb-frozen" class="mlfig-block" style="background-color:rgb(252, 228, 236);border-bottom-color:rgb(55, 65, 81);border-bottom-style:solid;border-bottom-width:2px;border-left-color:rgb(55, 65, 81);border-left-style:solid;border-left-width:2px;border-right-color:rgb(55, 65, 81);border-right-style:solid;border-right-width:2px;border-top-color:rgb(55, 65, 81);border-top-style:solid;border-top-width:2px;box-sizing:border-box;flex-basis:0%;flex-grow:4;font-weight:600;height:80px;min-height:80px;min-width:40px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;width:69.1562px;z-index:1;--col-width:max(300%, 250px);flex: 4; border: 2px solid #374151; background: #fce4ec; position: relative; min-height: 80px; min-width: 40px; border-radius: 0; margin: 0; --col-width: max(300%, 250px);" data-tip="Existing Token Embeddings (Frozen)&#10;All existing token embeddings&#10;vocab_size × d_embed" data-tip-position="bottom">
+                  
+                <svg class="svg-inline--fa fa-lock fa-w-14 lock" style="bottom:53.4062px;box-sizing:border-box;color:rgb(220, 38, 38);display:block;font-size:17.6px;height:17.5938px;left:51.7578px;line-height:28.16px;position:absolute;right:-2px;top:5px;vertical-align:-2.2px;width:15.3984px;top: 5px; right: -2px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" style="box-sizing:border-box;"/>
+                </svg><!-- <i class="fas fa-lock lock" style="top: 5px; right: -2px;"></i> Font Awesome fontawesome.com -->
+                
+            </div>
+                
+            <div id="emb-star" class="mlfig-block" style="background-color:rgb(232, 245, 233);border-bottom-color:rgb(55, 65, 81);border-bottom-style:solid;border-bottom-width:2px;border-left-color:rgb(55, 65, 81);border-left-style:solid;border-left-width:2px;border-right-color:rgb(55, 65, 81);border-right-style:solid;border-right-width:2px;box-sizing:border-box;flex-shrink:0;font-size:13.6px;font-weight:600;height:23.7578px;line-height:21.76px;min-width:40px;padding-left:8px;padding-right:8px;position:relative;width:69.1562px;z-index:1;--col-width:max(300%, 250px);flex: 0 0 auto; border: 2px solid #374151; border-top: none; background: #e8f5e9; position: relative; border-radius: 0; margin: 0; padding: 0 0.5rem; font-size: 0.85rem; min-width: 40px; --col-width: max(300%, 250px);" data-tip="S* Embedding (Trainable)&#10;Newly added token embedding&#10;1 × d_embed&#10;Only this row is optimized" data-tip-position="bottom">
+                  
+              <svg class="svg-inline--fa fa-lock-open fa-w-18" style="bottom:3px;box-sizing:border-box;color:rgb(76, 175, 80);display:block;font-size:14.4px;height:14.3984px;left:50.9609px;line-height:23.04px;position:absolute;right:-2px;top:4.35938px;vertical-align:-1.8px;width:16.1953px;color: #4caf50; position: absolute; bottom: 3px; right: -2px; font-size: 0.9rem;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock-open" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                <path fill="currentColor" d="M423.5 0C339.5.3 272 69.5 272 153.5V224H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48h-48v-71.1c0-39.6 31.7-72.5 71.3-72.9 40-.4 72.7 32.1 72.7 72v80c0 13.3 10.7 24 24 24h32c13.3 0 24-10.7 24-24v-80C576 68 507.5-.3 423.5 0z" style="box-sizing:border-box;"/>
+              </svg><!-- <i class="fas fa-lock-open" style="color: #4caf50; position: absolute; bottom: 3px; right: -2px; font-size: 0.9rem;"></i> Font Awesome fontawesome.com --> <math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:9.29688px;width:11.7109px;"><msub mathcolor="#0d9488" style="box-sizing:border-box;color:rgb(13, 148, 136);height:9.29688px;width:11.7109px;"><mi style="box-sizing:border-box;height:9.29688px;width:7.26562px;">S</mi><mo style="box-sizing:border-box;font-size:9.52px;height:3.5625px;math-depth:1;math-shift:compact;width:3.90625px;">*</mo></msub></math>
+                
+          </div>
+              
+        </div>
+              
+        <div id="clip" style="box-sizing:border-box;grid-column-start:2;grid-row-end:4;grid-row-start:2;height:107.758px;margin-bottom:-2px;margin-left:-2px;margin-right:-2px;margin-top:-2px;min-width:40px;position:relative;width:128.492px;z-index:1;grid-column: 2; grid-row: 2 / 4; position: relative; overflow: visible; margin: -2px; min-width: 40px; --col-width: max(200%, 250px);" data-tip="Transformer Layers (Frozen)&#10;Transforms token embeddings into&#10;conditioning vector c" data-tip-position="bottom">
+                
+          <svg xmlns="http://www.w3.org/2000/svg" style="bottom:-3px;box-sizing:border-box;display:block;height:113.758px;left:-3px;position:absolute;right:-3px;top:-3px;width:134.492px;position: absolute; inset: -3px; width: calc(100% + 6px); height: calc(100% + 6px);" preserveAspectRatio="none" viewBox="-3 -3 106 106">
+                  
+            <polygon points="0,0 100,8 100,92 0,100" fill="#fce4ec" stroke="#374151" stroke-width="2" vector-effect="non-scaling-stroke" style="box-sizing:border-box;"/>
+                
+          </svg>
+                
+          <svg class="svg-inline--fa fa-lock fa-w-14 lock" style="bottom:78.1641px;box-sizing:border-box;color:rgb(220, 38, 38);display:block;font-size:17.6px;height:17.5938px;left:110.094px;line-height:28.16px;position:absolute;right:3px;top:12px;vertical-align:-2.2px;width:15.3984px;z-index:1;top: 12px; right: 3px; z-index: 1;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+            <path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" style="box-sizing:border-box;"/>
+          </svg><!-- <i class="fas fa-lock lock" style="top: 12px; right: 3px; z-index: 1;"></i> Font Awesome fontawesome.com -->
+              
+      </div>
+            
+    </div>
+            
+    <div id="cond" class="ioblock" style="background-color:rgb(248, 250, 252);border-bottom-left-radius:14px;border-bottom-right-radius:14px;border-bottom-style:solid;border-bottom-width:3px;border-left-style:solid;border-left-width:3px;border-right-style:solid;border-right-width:3px;border-top-left-radius:14px;border-top-right-radius:14px;border-top-style:solid;border-top-width:3px;box-sizing:border-box;font-size:17.6px;grid-column-end:cond;grid-column-start:cond;grid-row-end:cond;grid-row-start:cond;height:66.1562px;justify-self:center;line-height:28.16px;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:16px;text-align:center;width:117.648px;grid-area:cond; justify-self: center;">
+              <math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:16.3984px;width:79.6484px;"><mi style="box-sizing:border-box;height:11.5625px;width:10.8125px;">E</mi><mo style="box-sizing:border-box;height:16.3984px;width:11.1406px;">(</mo><mi style="box-sizing:border-box;height:11.5625px;width:10.7422px;">T</mi><mo style="box-sizing:border-box;height:16.3984px;width:10.3281px;">[</mo><msub mathcolor="#0d9488" style="box-sizing:border-box;color:rgb(13, 148, 136);height:12.0312px;width:15.1562px;"><mi style="box-sizing:border-box;height:12.0312px;width:9.39844px;">S</mi><mo style="box-sizing:border-box;font-size:12.32px;height:4.60938px;math-depth:1;math-shift:compact;width:5.05469px;">*</mo></msub><mo style="box-sizing:border-box;height:16.3984px;width:10.3281px;">]</mo><mo style="box-sizing:border-box;height:16.3984px;width:11.1406px;">)</mo></math>
+            
+    </div>
+            
+    <div id="imggen" class="mlfig-block" style="background-color:rgb(241, 245, 249);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-top-left-radius:8px;border-top-right-radius:8px;box-sizing:border-box;cursor:pointer;font-size:15.2px;grid-column-end:imggen;grid-column-start:imggen;grid-row-end:imggen;grid-row-start:imggen;height:143.992px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:130.578px;z-index:1;--col-width:max(200%, 250px);grid-area:imggen; text-align: center; background: #f1f5f9; border: none; font-weight: normal; position: relative; --col-width: max(200%, 250px);" data-tip="Image Generation Module (Frozen)&#10;e.g. diffusion model&#10;Generates images conditioned on text embedding" data-tip-position="bottom">
+              
+      <svg class="svg-inline--fa fa-lock fa-w-14 lock" style="bottom:121.398px;box-sizing:border-box;color:rgb(220, 38, 38);display:block;font-size:17.6px;height:17.5938px;left:110.18px;line-height:28.16px;position:absolute;right:5px;top:5px;vertical-align:-2.2px;width:15.3984px;top: 5px; right: 5px;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="lock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+        <path fill="currentColor" d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" style="box-sizing:border-box;"/>
+      </svg><!-- <i class="fas fa-lock lock" style="top: 5px; right: 5px;"></i> Font Awesome fontawesome.com -->
+              Image
+    <br style="box-sizing:border-box;" />generation
+    <br style="box-sizing:border-box;" />module
+    <br style="box-sizing:border-box;" /><span class="italic" style="box-sizing:border-box;font-size:12.8px;font-style:italic;line-height:20.48px;opacity:0.7;">(e.g. diffusion model)</span>
+            
+  </div>
+            
+  <div id="generated" class="ioblock" style="background-color:rgb(248, 250, 252);border-bottom-left-radius:14px;border-bottom-right-radius:14px;border-bottom-style:solid;border-bottom-width:3px;border-left-style:solid;border-left-width:3px;border-right-style:solid;border-right-width:3px;border-top-left-radius:14px;border-top-right-radius:14px;border-top-style:solid;border-top-width:3px;box-sizing:border-box;font-size:17.6px;grid-column-end:generated;grid-column-start:generated;grid-row-end:generated;grid-row-start:generated;height:94.3125px;line-height:28.16px;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:16px;text-align:center;width:125.188px;grid-area:generated;">Generated
+    <br style="box-sizing:border-box;" />image
+  </div>
+            
+  <div id="samples" class="ioblock" style="background-color:rgb(248, 250, 252);border-bottom-left-radius:14px;border-bottom-right-radius:14px;border-bottom-style:solid;border-bottom-width:3px;border-left-style:solid;border-left-width:3px;border-right-style:solid;border-right-width:3px;border-top-left-radius:14px;border-top-right-radius:14px;border-top-style:solid;border-top-width:3px;box-sizing:border-box;font-size:17.6px;grid-column-end:samples;grid-column-start:samples;grid-row-end:samples;grid-row-start:samples;height:94.3125px;justify-self:center;line-height:28.16px;padding-bottom:16px;padding-left:16px;padding-right:16px;padding-top:16px;text-align:center;width:99.8984px;grid-area:samples; justify-self: center;">Sample
+    <br style="box-sizing:border-box;" />images
+  </div>
+          
+</div>
+        
+<div id="textual-inversion-vetim-style-diagram-labels" style="bottom:0px;box-sizing:border-box;height:325.984px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:960px;z-index:2;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+  <div class="mlfig-svg-label-html" id="loss-label" style="bottom:60.1328px;box-sizing:border-box;color:rgb(124, 58, 237);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:24px;height:29.9844px;left:885.914px;line-height:24px;position:absolute;right:4.26562px;text-align:center;text-wrap-mode:nowrap;top:235.869px;transform:matrix(1, 0, 0, 1, -34.9102, 0);width:69.8203px;pointer-events: auto; text-align: center; color: rgb(124, 58, 237); opacity: 1; font-size: 24px; position: absolute; top: 235.869px; left: 885.914px; transform: translateX(-50%);"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:24.75px;width:69.8203px;"><msub style="box-sizing:border-box;height:24.75px;width:69.8203px;"><mi mathvariant="script" style="box-sizing:border-box;height:15.7656px;width:13.6562px;">L</mi><mtext style="box-sizing:border-box;font-size:16.8px;height:15.7969px;math-depth:1;math-shift:compact;width:55.2109px;">original</mtext></msub></math>
+  </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" id="textual-inversion-vetim-style-diagram-fg-svg" class="mlfig-svg" width="960" height="325.984375" style="bottom:0px;box-sizing:border-box;display:block;height:325.984px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:960px;z-index:10;z-index: 10;">
+  <defs style="box-sizing:border-box;">
+    <marker id="textual-inversion-vetim-style-diagram-fg-svg-m-7c3aed18x105" markerWidth="10.5" markerHeight="18" refX="2" refY="9" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+      <polygon points="0 0, 10.5 9, 0 18" fill="#7c3aed" style="box-sizing:border-box;"/>
+    </marker>
+  </defs>
+  <path d="M 885.9140625,246.859375 C 885.0109375,224.4859375 914.278125,152.3984375 881.3984375,134.9921875 C 848.51875,117.5859375 784.71484375,162.64375 721.515625,159.828125 C 658.31640625,157.0125 628.8390625,129.72109375 565.40234375,120.9140625 C 501.965625,112.10703125 450.1953125,108.8171875 404.33203125,115.79296875 C 392.8662109375,117.5369140625 354.164701219539,145.19674984506733 350.752396532039,147.19674984506733" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 6" stroke-linecap="round" marker-end="url(#textual-inversion-vetim-style-diagram-fg-svg-m-7c3aed18x105)" style="box-sizing:border-box;"/>
+</svg>
+<div id="textual-inversion-vetim-style-diagram-scroll-spacer" style="box-sizing:border-box;height:1px;margin-top:-1px;pointer-events:none;height: 1px; pointer-events: none; margin-top: -1px; width: 0px;">
+</div>
+<div class="mlfig-tooltip-arrow mlfig-tooltip-arrow-shared" style="border-bottom-style:solid;border-bottom-width:6px;border-left-color:rgba(0, 0, 0, 0);border-left-style:solid;border-left-width:6px;border-right-color:rgba(0, 0, 0, 0);border-right-style:solid;border-right-width:6px;bottom:150.156px;box-sizing:border-box;content:&quot;&quot;;grid-column-start:1;grid-row-start:1;height:6px;left:721.516px;opacity:0;pointer-events:none;position:absolute;right:226.484px;top:169.828px;transform:matrix(1, 0, 0, 1, -6, 0);visibility:hidden;width:12px;z-index:200;position: absolute; z-index: 200; left: 721.516px; transform: translateX(-50%); opacity: 0; visibility: hidden; top: 169.828px; bottom: auto; border-top: none; border-bottom: 6px solid var(--text-primary);">
+</div>
+</div>
+</div>
+</foreignObject><text x="4" y="312" font-family="'SF Mono', Monaco, monospace" font-size="10" fill="#f1f5f9">© 2026 IVRL/ml-figure-template</text>
+</svg>

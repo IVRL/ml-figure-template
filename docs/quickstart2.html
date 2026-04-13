@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Figure Template - Quick Start 2</title>
+  <link rel="stylesheet" href="static/ml-figure-template/ml-figure-template.css">
+  <script defer src="static/ml-figure-template/ml-figure-template.js"></script>
+</head>
+<body style="padding: 2rem; font-family: sans-serif;">
+
+  <div class="mlfig" id="my-diagram">
+    <script type="application/json">
+    {
+      "arrows": [
+        { "from": "encoder", "fromSide": "right", "to": "decoder", "toSide": "left" }
+      ]
+    }
+    </script>
+    <div class="mlfig-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+      <div class="mlfig-block" id="encoder">Encoder</div>
+      <div class="mlfig-block" id="decoder">Decoder</div>
+    </div>
+  </div>
+
+</body>
+</html>

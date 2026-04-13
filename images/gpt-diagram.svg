@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Diagram made with ml-figure-template
+  https://github.com/IVRL/ml-figure-template
+  Free to use with attribution — see
+  https://github.com/IVRL/ml-figure-template/blob/main/LICENSE
+  Template © 2026 EPFL-IVRL and Martin Everaert
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1245" viewBox="0 0 794 1245">
+  <foreignObject x="0" y="0" width="794" height="1245">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="mlfig" id="gpt-diagram" style="box-sizing: border-box; color: rgb(30, 41, 59); font-family: Inter, &quot;Segoe UI&quot;, -apple-system, &quot;system-ui&quot;, sans-serif; height: 1244.09px; line-height: 25.6px; margin: 0px; padding: 16px 16px 24px; position: relative; text-rendering: optimizelegibility; text-size-adjust: 100%; width: 794px; -webkit-font-smoothing: antialiased; -webkit-locale: &quot;en&quot;; --text-secondary: #64748b; --primary-color: #2563eb; --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); --text-light: #94a3b8; --border-color: #e2e8f0; --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05); --background-accent: #f1f5f9; --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); --background-primary: #ffffff; --primary-hover: #1d4ed8; --ViewSDK-mobile-viewport-height: 1vh; --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); --border-radius: 12px; --text-primary: #1e293b; --background-secondary: #f8fafc; --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); --border-radius-lg: 16px; min-width: 360px; --mlfig-w: 794px; --mlfig-z: 0.818639798488665; left: 0px; top: 0px; overflow: visible;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mlfig-svg" width="794" height="1244.09375" style="bottom:0px;box-sizing:border-box;display:block;height:1244.09px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:794px;z-index:0;">
+          <defs style="box-sizing:border-box;">
+            <marker id="ah-gpt-diagram-94a3b88x10" markerWidth="10" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="strokeWidth" style="box-sizing:border-box;">
+              <polygon points="0 0, 10 4, 0 8" fill="#94a3b8" style="box-sizing:border-box;"/>
+            </marker>
+          </defs>
+          <rect x="225.8828125" y="309.7421875" width="471.109375" height="523.71875" rx="10" ry="10" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="8 4" opacity="0.6" style="box-sizing:border-box;height:523.719px;opacity:0.6;rx:10px;ry:10px;width:471.109px;x:225.883px;y:309.742px;"/>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="85.046875" x2="427.21875" y2="114.03125" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="179.7421875" x2="427.21875" y2="197.7421875" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 177.44140625,90.03125 L 177.44140625,229.7421875 L 395.21875,229.7421875" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="245.7421875" x2="427.21875" y2="343.7421875" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="398.890625" x2="427.21875" y2="422.890625" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="488.6015625" x2="427.21875" y2="506.6015625" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 427.21875,319.7421875 L 646.7734375,319.7421875 L 646.7734375,434.171875" fill="none" stroke="#94a3b8" stroke-width="2" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 646.7734375,434.171875 L 646.7734375,538.6015625 L 459.21875,538.6015625" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="554.6015625" x2="427.21875" y2="612.6015625" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="667.75" x2="427.21875" y2="691.75" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="757.4609375" x2="427.21875" y2="775.4609375" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 427.21875,588.6015625 L 646.7734375,588.6015625 L 646.7734375,703.03125" fill="none" stroke="#94a3b8" stroke-width="2" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <path d="M 646.7734375,703.03125 L 646.7734375,807.4609375 L 459.21875,807.4609375" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="823.4609375" x2="427.21875" y2="881.4609375" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="936.609375" x2="427.21875" y2="960.609375" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="1026.3203125" x2="427.21875" y2="1050.3203125" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+          <g class="mlfig-svg-arrow" style="box-sizing:border-box;">
+            <line x1="427.21875" y1="1116.03125" x2="427.21875" y2="1140.03125" stroke="#94a3b8" stroke-width="2" marker-end="url(#ah-gpt-diagram-94a3b88x10)" style="box-sizing:border-box;"/>
+          </g>
+        </svg>
+          <!-- Diagram-specific styles -->
+          
+        <style style="box-sizing:border-box;">
+            #gpt-diagram .frozen   { --mlfig-bg: #dbeafe; --mlfig-border: 1.5px solid #60a5fa; }
+            #gpt-diagram .amber    { --mlfig-bg: #fef3c7; --mlfig-border: 1.5px solid #f59e0b; }
+            #gpt-diagram .pink     { --mlfig-bg: #fce7f3; --mlfig-border: 1.5px solid #f472b6; }
+            #gpt-diagram .dim      { font-size: 0.8rem; color: #94a3b8; font-family: 'SF Mono', 'Monaco', monospace; }
+            #gpt-diagram .output   { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                                     padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+            #gpt-diagram .small    { padding: 0.45rem 0.8rem; font-size: 0.85rem; margin: 0 0.25rem; }
+            #gpt-diagram .add      { justify-self: center; margin: -0.375rem 0; width: 32px; height: 32px; border-radius: 50%;
+                                     background: #f1f5f9; border: 1.5px solid #e2e8f0; display: flex; align-items: center;
+                                     justify-content: center; font-size: 1.1rem; font-weight: 700; color: #64748b; cursor: default; }
+          
+        </style>
+          
+          
+        <div class="mlfig-grid" style="align-items:center;box-sizing:border-box;column-gap:8px;display:grid;grid-template-areas:&quot;pos-emb input .&quot; &quot;. tok-emb .&quot; &quot;. add .&quot; &quot;. gap1 .&quot; &quot;. sb1 sk1&quot; &quot;. ln1 sk1&quot; &quot;. mha sk1&quot; &quot;. res1 sk1&quot; &quot;. sb2 sk2&quot; &quot;. ln2 sk2&quot; &quot;. ffn sk2&quot; &quot;. res2 sk2&quot; &quot;. gap2 .&quot; &quot;. lnf .&quot; &quot;. head .&quot; &quot;. soft .&quot; &quot;. output .&quot;;grid-template-columns:120.883px 362.672px 60.4375px;grid-template-rows:74.0312px 49.7109px 20px 0px 0px 39.1484px 49.7109px 20px 0px 39.1484px 49.7109px 20px 0px 39.1484px 49.7109px 49.7109px 64.0625px;height:1204.09px;justify-items:stretch;margin-left:101px;margin-right:101px;max-width:560px;position:relative;row-gap:40px;width:560px;z-index:1;&#10;            grid-template-columns: 1fr 3fr 0.5fr;&#10;            grid-template-areas:&#10;              'pos-emb  input    .'&#10;              '.        tok-emb  .'&#10;              '.        add      .'&#10;              '.        gap1     .'&#10;              '.        sb1      sk1'&#10;              '.        ln1      sk1'&#10;              '.        mha      sk1'&#10;              '.        res1     sk1'&#10;              '.        sb2      sk2'&#10;              '.        ln2      sk2'&#10;              '.        ffn      sk2'&#10;              '.        res2     sk2'&#10;              '.        gap2     .'&#10;              '.        lnf      .'&#10;              '.        head     .'&#10;              '.        soft     .'&#10;              '.        output   .';&#10;            gap: 2.5rem 0.5rem;&#10;            max-width: 560px;&#10;            margin: 0 auto;&#10;          ">
+            
+          <div id="input" class="output" style="background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:dashed;border-bottom-width:1px;border-left-color:rgb(226, 232, 240);border-left-style:dashed;border-left-width:1px;border-right-color:rgb(226, 232, 240);border-right-style:dashed;border-right-width:1px;border-top-color:rgb(226, 232, 240);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:dashed;border-top-width:1px;box-sizing:border-box;color:rgb(100, 116, 139);font-size:14.4px;font-weight:600;grid-column-end:input;grid-column-start:input;grid-row-end:input;grid-row-start:input;height:64.0625px;line-height:23.04px;padding-bottom:8px;padding-left:12px;padding-right:12px;padding-top:8px;text-align:center;width:362.672px;grid-area:input">Input tokens
+            <br style="box-sizing:border-box;" /><span class="dim" style="box-sizing:border-box;color:rgb(148, 163, 184);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12.8px;line-height:20.48px;">sequence length</span>
+          </div>
+            
+          <div id="pos-emb" class="mlfig-block frozen" style="background-color:rgb(219, 234, 254);border-bottom-color:rgb(96, 165, 250);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(96, 165, 250);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(96, 165, 250);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(96, 165, 250);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:pos-emb;grid-column-start:pos-emb;grid-row-end:pos-emb;grid-row-start:pos-emb;height:74.0312px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:120.883px;z-index:1;--mlfig-bg:#dbeafe;--mlfig-border:1.5px solid #60a5fa;grid-area:pos-emb" data-tip="Positional Embeddings&#10;Learned or sinusoidal&#10;Shape: seq_len × d_model">Positional Emb.
+          </div>
+            
+          <div id="tok-emb" class="mlfig-block" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:tok-emb;grid-column-start:tok-emb;grid-row-end:tok-emb;grid-row-start:tok-emb;height:49.7109px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:362.672px;z-index:1;grid-area:tok-emb" data-tip="Token Embedding&#10;Lookup table: vocab_size → d_model&#10;Output: seq_len × d_model">Token Embedding
+          </div>
+            
+          <div id="embedding-sum" class="add" style="align-items:center;background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(226, 232, 240);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(226, 232, 240);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(226, 232, 240);border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;color:rgb(100, 116, 139);cursor:default;display:flex;font-size:17.6px;font-weight:700;grid-column-end:add;grid-column-start:add;grid-row-end:add;grid-row-start:add;height:32px;justify-content:center;justify-self:center;line-height:28.16px;margin-bottom:-6px;margin-top:-6px;width:32px;grid-area:add">+
+          </div>
+            
+          <div style="box-sizing:border-box;grid-column-end:gap1;grid-column-start:gap1;grid-row-end:gap1;grid-row-start:gap1;width:362.672px;grid-area:gap1">
+          </div>
+            
+          <div id="split-attention" style="box-sizing:border-box;grid-column-end:sb1;grid-column-start:sb1;grid-row-end:sb1;grid-row-start:sb1;width:362.672px;grid-area:sb1; height:0;">
+          </div>
+            
+          <div id="skip-attention" style="box-sizing:border-box;grid-column-end:sk1;grid-column-start:sk1;grid-row-end:sk1;grid-row-start:sk1;width:60.4375px;grid-area:sk1;">
+          </div>
+            
+          <div id="layer-norm-1" class="mlfig-block small" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:13.6px;font-weight:600;grid-column-end:ln1;grid-column-start:ln1;grid-row-end:ln1;grid-row-start:ln1;height:39.1484px;line-height:21.76px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;position:relative;text-align:center;width:354.672px;z-index:1;grid-area:ln1" data-tip="Layer Norm 1&#10;Pre-norm variant">LayerNorm
+          </div>
+            
+          <div id="attention" class="mlfig-block amber" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:mha;grid-column-start:mha;grid-row-end:mha;grid-row-start:mha;height:49.7109px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:362.672px;z-index:1;--mlfig-bg:#fef3c7;--mlfig-border:1.5px solid #f59e0b;grid-area:mha" data-tip="Masked Multi-Head Self-Attention&#10;Causal mask prevents attending to future tokens&#10;h heads, d_k = d_model / h">Masked Multi-Head Attention
+          </div>
+            
+          <div id="residual-1" class="add" style="align-items:center;background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(226, 232, 240);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(226, 232, 240);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(226, 232, 240);border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;color:rgb(100, 116, 139);cursor:default;display:flex;font-size:17.6px;font-weight:700;grid-column-end:res1;grid-column-start:res1;grid-row-end:res1;grid-row-start:res1;height:32px;justify-content:center;justify-self:center;line-height:28.16px;margin-bottom:-6px;margin-top:-6px;width:32px;grid-area:res1">+
+          </div>
+            
+          <div id="split-ffn" style="box-sizing:border-box;grid-column-end:sb2;grid-column-start:sb2;grid-row-end:sb2;grid-row-start:sb2;width:362.672px;grid-area:sb2; height:0;">
+          </div>
+            
+          <div id="skip-ffn" style="box-sizing:border-box;grid-column-end:sk2;grid-column-start:sk2;grid-row-end:sk2;grid-row-start:sk2;width:60.4375px;grid-area:sk2;">
+          </div>
+            
+          <div id="layer-norm-2" class="mlfig-block small" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:13.6px;font-weight:600;grid-column-end:ln2;grid-column-start:ln2;grid-row-end:ln2;grid-row-start:ln2;height:39.1484px;line-height:21.76px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;position:relative;text-align:center;width:354.672px;z-index:1;grid-area:ln2" data-tip="Layer Norm 2&#10;Pre-norm variant">LayerNorm
+          </div>
+            
+          <div id="feed-forward" class="mlfig-block" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:ffn;grid-column-start:ffn;grid-row-end:ffn;grid-row-start:ffn;height:49.7109px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:362.672px;z-index:1;grid-area:ffn" data-tip="Feed-Forward Network&#10;Two linear layers with GELU&#10;d_model → 4·d_model → d_model">FFN (MLP)
+          </div>
+            
+          <div id="residual-2" class="add" style="align-items:center;background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:50%;border-bottom-right-radius:50%;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(226, 232, 240);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(226, 232, 240);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(226, 232, 240);border-top-left-radius:50%;border-top-right-radius:50%;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;color:rgb(100, 116, 139);cursor:default;display:flex;font-size:17.6px;font-weight:700;grid-column-end:res2;grid-column-start:res2;grid-row-end:res2;grid-row-start:res2;height:32px;justify-content:center;justify-self:center;line-height:28.16px;margin-bottom:-6px;margin-top:-6px;width:32px;grid-area:res2">+
+          </div>
+            
+          <div style="box-sizing:border-box;grid-column-end:gap2;grid-column-start:gap2;grid-row-end:gap2;grid-row-start:gap2;width:362.672px;grid-area:gap2">
+          </div>
+            
+          <div id="final-norm" class="mlfig-block small" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:13.6px;font-weight:600;grid-column-end:lnf;grid-column-start:lnf;grid-row-end:lnf;grid-row-start:lnf;height:39.1484px;line-height:21.76px;margin-left:4px;margin-right:4px;padding-bottom:7.2px;padding-left:12.8px;padding-right:12.8px;padding-top:7.2px;position:relative;text-align:center;width:354.672px;z-index:1;grid-area:lnf" data-tip="Final Layer Norm&#10;Applied after last transformer block">LayerNorm (final)
+          </div>
+            
+          <div id="output-projection" class="mlfig-block" style="background-color:rgb(254, 243, 199);border-bottom-color:rgb(245, 158, 11);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(245, 158, 11);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(245, 158, 11);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(245, 158, 11);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:head;grid-column-start:head;grid-row-end:head;grid-row-start:head;height:49.7109px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:362.672px;z-index:1;grid-area:head" data-tip="Linear projection&#10;d_model → vocab_size&#10;Often tied with token embedding weights">Linear Head
+          </div>
+            
+          <div id="softmax" class="mlfig-block pink" style="background-color:rgb(252, 231, 243);border-bottom-color:rgb(244, 114, 182);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:solid;border-bottom-width:1.5px;border-left-color:rgb(244, 114, 182);border-left-style:solid;border-left-width:1.5px;border-right-color:rgb(244, 114, 182);border-right-style:solid;border-right-width:1.5px;border-top-color:rgb(244, 114, 182);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:solid;border-top-width:1.5px;box-sizing:border-box;cursor:pointer;font-size:15.2px;font-weight:600;grid-column-end:soft;grid-column-start:soft;grid-row-end:soft;grid-row-start:soft;height:49.7109px;line-height:24.32px;padding-bottom:11.2px;padding-left:17.6px;padding-right:17.6px;padding-top:11.2px;position:relative;text-align:center;width:362.672px;z-index:1;--mlfig-bg:#fce7f3;--mlfig-border:1.5px solid #f472b6;grid-area:soft" data-tip="Softmax over vocabulary&#10;Output: probability distribution over vocab_size tokens">Softmax
+          </div>
+            
+          <div id="output" class="output" style="background-color:rgb(241, 245, 249);border-bottom-color:rgb(226, 232, 240);border-bottom-left-radius:8px;border-bottom-right-radius:8px;border-bottom-style:dashed;border-bottom-width:1px;border-left-color:rgb(226, 232, 240);border-left-style:dashed;border-left-width:1px;border-right-color:rgb(226, 232, 240);border-right-style:dashed;border-right-width:1px;border-top-color:rgb(226, 232, 240);border-top-left-radius:8px;border-top-right-radius:8px;border-top-style:dashed;border-top-width:1px;box-sizing:border-box;color:rgb(100, 116, 139);font-size:14.4px;font-weight:600;grid-column-end:output;grid-column-start:output;grid-row-end:output;grid-row-start:output;height:64.0625px;line-height:23.04px;padding-bottom:8px;padding-left:12px;padding-right:12px;padding-top:8px;text-align:center;width:362.672px;grid-area:output">Next-token probabilities
+            <br style="box-sizing:border-box;" /><span class="dim" style="box-sizing:border-box;color:rgb(148, 163, 184);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12.8px;line-height:20.48px;">sequence length × vocabulary size</span>
+          </div>
+          
+        </div>
+        
+        <div id="gpt-diagram-labels" style="bottom:0px;box-sizing:border-box;height:1244.09px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:794px;z-index:2;position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:660.492px;box-sizing:border-box;color:rgb(99, 102, 241);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;justify-content:center;left:239.883px;line-height:12px;opacity:0.8;position:absolute;right:395.688px;text-wrap-mode:nowrap;top:571.602px;transform:matrix(0, 1, -1, 0, -79.2148, -6);width:158.43px;position: absolute; left: 239.883px; top: 571.602px; transform: translate(-50%, -50%) rotate(90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto; color: rgb(99, 102, 241); opacity: 0.8; font-size: 12px;">× N transformer blocks
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:1044.26px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:186.742px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 186.742px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:1073.15px;box-sizing:border-box;color:rgb(100, 116, 139);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:11.0625px;justify-content:center;left:167.441px;line-height:12px;opacity:0.7;position:absolute;right:597.141px;text-wrap-mode:nowrap;top:159.887px;transform:matrix(0, -1, 1, 0, -14.7109, -5.53125);width:29.4219px;position: absolute; left: 167.441px; top: 159.887px; transform: translate(-50%, -50%) rotate(-90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;display:block math;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:938.258px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:292.742px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 292.742px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:822.109px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:408.891px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 408.891px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:745.711px;box-sizing:border-box;color:rgb(100, 116, 139);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;justify-content:center;left:656.773px;line-height:12px;opacity:0.7;position:absolute;right:29.2031px;text-wrap-mode:nowrap;top:486.387px;transform:matrix(0, -1, 1, 0, -54.0117, -6);width:108.023px;position: absolute; left: 656.773px; top: 486.387px; transform: translate(-50%, -50%) rotate(-90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto;">Skip Connection
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:649.398px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:389.797px;line-height:12px;opacity:0.7;position:absolute;right:374.781px;text-align:right;text-wrap-mode:nowrap;top:581.602px;width:29.4219px;pointer-events: auto; text-align: right; position: absolute; top: 581.602px; right: 374.781px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:553.25px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:677.75px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 677.75px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="align-items:center;bottom:476.852px;box-sizing:border-box;color:rgb(100, 116, 139);display:flex;font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;justify-content:center;left:656.773px;line-height:12px;opacity:0.7;position:absolute;right:29.2031px;text-wrap-mode:nowrap;top:755.246px;transform:matrix(0, -1, 1, 0, -54.0117, -6);width:108.023px;position: absolute; left: 656.773px; top: 755.246px; transform: translate(-50%, -50%) rotate(-90deg); display: flex; align-items: center; justify-content: center; pointer-events: auto;">Skip Connection
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:380.539px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:850.461px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 850.461px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:284.391px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:13.0938px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:329.359px;text-align:left;text-wrap-mode:nowrap;top:946.609px;width:29.4219px;pointer-events: auto; text-align: left; position: absolute; top: 946.609px; left: 435.219px;"><math xmlns="http://www.w3.org/1998/Math/MathML" style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><msub style="box-sizing:border-box;height:11.0625px;width:29.4219px;"><mi style="box-sizing:border-box;height:8.5625px;width:6.67969px;">d</mi><mi style="box-sizing:border-box;font-size:8.4px;height:6px;math-depth:1;math-shift:compact;width:22.2656px;">model</mi></msub></math>
+          </div>
+          <div class="mlfig-svg-label-html" style="bottom:195.773px;box-sizing:border-box;color:rgb(100, 116, 139);font-family:&quot;SF Mono&quot;, Monaco, monospace;font-size:12px;height:12px;left:435.219px;line-height:12px;opacity:0.7;position:absolute;right:250.758px;text-align:left;text-wrap-mode:nowrap;top:1036.32px;width:108.023px;pointer-events: auto; text-align: left; position: absolute; top: 1036.32px; left: 435.219px;">vocabulary size
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="gpt-diagram-fg-svg" class="mlfig-svg" width="794" height="1244.09375" style="bottom:0px;box-sizing:border-box;display:block;height:1244.09px;left:0px;pointer-events:none;position:absolute;right:0px;top:0px;width:794px;z-index:10;z-index: 10;">
+          <defs style="box-sizing:border-box;"/>
+        </svg>
+        <div id="gpt-diagram-scroll-spacer" style="box-sizing:border-box;height:1px;margin-top:-1px;pointer-events:none;width:697px;height: 1px; pointer-events: none; margin-top: -1px; width: 697px;">
+        </div>
+        <div class="mlfig-tooltip-arrow mlfig-tooltip-arrow-shared" style="border-left-color:rgba(0, 0, 0, 0);border-left-style:solid;border-left-width:6px;border-right-color:rgba(0, 0, 0, 0);border-right-style:solid;border-right-width:6px;border-top-style:solid;border-top-width:6px;bottom:886.352px;box-sizing:border-box;content:&quot;&quot;;grid-column-start:1;grid-row-start:1;height:6px;left:606.219px;opacity:0;pointer-events:none;position:absolute;right:175.781px;top:351.742px;transform:matrix(1, 0, 0, 1, -6, 0);visibility:hidden;width:12px;z-index:200;position: absolute; z-index: 200; left: 606.219px; transform: translateX(-50%); opacity: 0; visibility: hidden; top: auto; bottom: 886.352px; border-top: 6px solid var(--text-primary); border-bottom: none;">
+        </div>
+      </div>
+    </div>
+  </foreignObject><text x="4" y="1231" font-family="'SF Mono', Monaco, monospace" font-size="10" fill="#f1f5f9">© 2026 IVRL/ml-figure-template</text>
+</svg>

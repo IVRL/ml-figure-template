@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Figure Template - Quick Start 3</title>
+  <link rel="stylesheet" href="static/ml-figure-template/ml-figure-template.css">
+  <script defer src="static/ml-figure-template/ml-figure-template.js"></script>
+</head>
+<body style="padding: 2rem; font-family: sans-serif;">
+
+  <div class="mlfig" id="my-diagram" style="padding-top: 4rem;">
+    <script type="application/json">
+    {
+      "defaults": { "strokeColor": "#374151" },
+      "arrows": [
+        { "from": "input", "fromSide": "right", "to": "encoder", "toSide": "left", "label": "3&times;512&times;512", "labelRotate": 90, "labelSide": "bottom" },
+        { "from": "encoder", "to": "bottleneck", "label": "1&times;1024", "labelSide": "left" },
+        { "from": "bottleneck", "to": "decoder", "label": "1&times;1024", "labelSide": "right" },
+        { "from": "decoder", "fromSide": "right", "to": "output", "toSide": "left", "label": "1&times;512&times;512", "labelRotate": -90, "labelSide": "top" }
+      ],
+      "boundingBoxes": [
+        {
+          "hExtent": ["encoder", "bottleneck", "decoder"],
+          "vExtent": ["encoder", "bottleneck", "decoder"],
+          "label": "Your awesome model",
+          "labelPosition": "bottom"
+        }
+      ],
+      "paths": [
+        {
+          "layer": "fg",
+          "points": [
+            { "id": "input", "side": "top", "offsetX": 15 },
+            { "id": "encoder", "side": "top", "offsetY": -15, "offsetX": 15 },
+            { "id": "decoder", "side": "right", "offsetY": 25, "offsetX": -15 },
+            { "id": "output", "side": "left", "offsetY": 20, "offsetX": 20 }
+          ],
+          "color": "#7c3aed",
+          "arrow": true,
+          "dashed": "6 6"
+        }
+      ]
+    }
+    </script>
+    <style>
+      #my-diagram .output { text-align: center; font-size: 0.9rem; font-weight: 600; color: #64748b;
+                            padding: 0.5rem 0.75rem; background: #f1f5f9; border-radius: 8px; border: 1px dashed #e2e8f0; }
+      #my-diagram .small  { padding: 0.45rem 0.8rem; font-size: 0.85rem; margin: 0 0.25rem; }
+    </style>
+    <div class="mlfig-grid" style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+        'input   encoder    .'
+        '.       bottleneck .'
+        '.       decoder    output';
+      gap: 3rem 2.5rem;
+    ">
+      <div class="output small" id="input" style="grid-area: input;">Your awesome input</div>
+      <div class="mlfig-block" id="encoder" style="grid-area: encoder;" data-tip="Some details about the encoder">Encoder</div>
+      <div class="mlfig-block small" id="bottleneck" style="grid-area: bottleneck;" data-tip="Some details about the bottleneck">Bottleneck</div>
+      <div class="mlfig-block" id="decoder" style="grid-area: decoder;" data-tip="Some details about the decoder">Decoder</div>
+      <div class="output small" id="output" style="grid-area: output;">Your awesome output</div>
+    </div>
+  </div>
+
+</body>
+</html>

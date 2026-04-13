@@ -32,7 +32,7 @@ And create your first diagram:
 </div>
 ```
 
-See this example in action: [quickstart1.html](https://ivrl.github.io/ml-figure-template/docs/quickstart1.html)
+See this example in action: [quickstart1.html](https://ivrl.github.io/ml-figure-template/quickstart1.html)
 
 ![quickstart1](images/quickstart1.svg)
 
@@ -60,7 +60,7 @@ Now, suppose we want a horizontal layout (2 columns, 1 row). We just change `gri
 ```
 
 Note that we specified `"fromSide": "right"` and `"toSide": "left"` on the arrow. This is because, by default, arrows go from the bottom of the source block to the top of the target block (designed for vertical layouts).
-See this example in action: [quickstart2.html](https://ivrl.github.io/ml-figure-template/docs/quickstart2.html).
+See this example in action: [quickstart2.html](https://ivrl.github.io/ml-figure-template/quickstart2.html).
 
 ![quickstart2](images/quickstart2.svg)
 
@@ -132,7 +132,7 @@ This example introduces several new features:
 - **Bounding boxes**: Highlight a group of blocks with a labeled bounding box.
 - **Custom styles**: The library only provides `.mlfig-block` and `.mlfig-grid` as core classes. Any other styling (colors, sizes, input/output variants) is defined in a `<style>` block inside the diagram. This keeps the library minimal and lets you define exactly the classes you need.
 
-See this example in action: [quickstart3.html](https://ivrl.github.io/ml-figure-template/docs/quickstart3.html).
+See this example in action: [quickstart3.html](https://ivrl.github.io/ml-figure-template/quickstart3.html).
 
 ![quickstart3](images/quickstart3.svg)
 
@@ -140,19 +140,19 @@ See this example in action: [quickstart3.html](https://ivrl.github.io/ml-figure-
 
 Every interactive diagram renders a small "Save as SVG" button in its bottom-left corner. Clicking it downloads a self-contained `.svg` file of the current diagram, that you can drop straight into a paper. The three images above were produced this way from the quickstart examples.
 
-See more examples in: [index.html](https://ivrl.github.io/ml-figure-template/docs/).
+See more examples in: [index.html](https://ivrl.github.io/ml-figure-template/).
 
-[![GPT — default style](images/gpt-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![GPT — default style](images/gpt-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
-[![GPT — stylized](images/gpt-bt-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![GPT — stylized](images/gpt-bt-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
-[![Transformer — stylized](images/transformer-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![Transformer — stylized](images/transformer-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
-[![Textual Inversion — default style](images/textual-inversion-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![Textual Inversion — default style](images/textual-inversion-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
-[![VETIM — VETIM paper style](images/vetim-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![VETIM — VETIM paper style](images/vetim-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
-[![Textual Inversion — VETIM paper style](images/textual-inversion-vetim-style-diagram.svg)](https://ivrl.github.io/ml-figure-template/docs/)
+[![Textual Inversion — VETIM paper style](images/textual-inversion-vetim-style-diagram.svg)](https://ivrl.github.io/ml-figure-template/)
 
 ## Citation
 
